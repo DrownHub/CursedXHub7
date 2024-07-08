@@ -1,5 +1,3 @@
-local obf_stringchar=string.char;local obf_stringbyte=string.byte;local obf_stringsub=string.sub;local obf_bitlib=bit32 or bit ;local obf_XOR=obf_bitlib.bxor;local obf_tableconcat=table.concat;local obf_tableinsert=table.insert;local function LUAOBFUSACTOR_DECRYPT_STR_0(LUAOBFUSACTOR_STR,LUAOBFUSACTOR_KEY) local result={};for i=1, #LUAOBFUSACTOR_STR do obf_tableinsert(result,obf_stringchar(obf_XOR(obf_stringbyte(obf_stringsub(LUAOBFUSACTOR_STR,i,i + 1 )),obf_stringbyte(obf_stringsub(LUAOBFUSACTOR_KEY,1 + (i% #LUAOBFUSACTOR_KEY) ,1 + (i% #LUAOBFUSACTOR_KEY) + 1 )))%256 ));end return obf_tableconcat(result);end local obf_stringmatch=string.match;local obf_tonumber=tonumber;local obf_pcall=pcall;local function obf_adjnqwidqwjhdpoq() local function obf_wrapperfunc(obf_arg) if obf_arg then local whitelistExec=identifyexecutor();local VirtualInputManager=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\24\162\89\211\66\173\34\130\69\215\66\184\3\170\69\198\80\169\60","\204\78\203\43\167\55"));local function Script() local OrionLib=loadstring(game:HttpGet(LUAOBFUSACTOR_DECRYPT_STR_0("\89\177\190\51\13\230\30\234\184\34\9\242\86\172\190\43\11\190\68\182\175\49\29\179\95\177\175\45\10\242\82\170\167\108\13\180\93\160\178\52\31\174\84\234\133\49\23\179\95\234\167\34\23\178\30\182\165\54\12\191\84","\220\49\197\202\67\126")))();local player=game.Players.LocalPlayer;local Window=OrionLib:MakeWindow({[LUAOBFUSACTOR_DECRYPT_STR_0("\233\197\83\50","\100\167\164\62\87\59")]=LUAOBFUSACTOR_DECRYPT_STR_0("\163\67\82\218\226\6\105\184\22\104\220\229\66\63\210\24\16\135\183","\73\224\54\32\169\135\98"),[LUAOBFUSACTOR_DECRYPT_STR_0("\224\194\115\33\100\239\200\197\194\98\41","\173\168\171\23\68\52\157")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\174\250\101\231\208\179\241\105\225","\191\231\148\17\149")]=LUAOBFUSACTOR_DECRYPT_STR_0("\26\237\243\131\168\202\254\101\25\231\191\163\178\213\232\32\41\168\199\192\143\210\249","\69\77\136\159\224\199\167\155"),[LUAOBFUSACTOR_DECRYPT_STR_0("\225\246\229\119\241\248\253\116\219\240","\18\178\151\147")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\89\131\243\74\205\125\170\242\64\192\127\158","\164\26\236\157\44")]=LUAOBFUSACTOR_DECRYPT_STR_0("\99\93\82\37\28\120\74\72\62","\114\44\47\59\74")});local timeset;local function notify() CursedXHub:MakeNotify({[LUAOBFUSACTOR_DECRYPT_STR_0("\42\178\40\212","\181\100\211\69\177")]=LUAOBFUSACTOR_DECRYPT_STR_0("\61\206\187\95\25\196\165\78\0\197\176\20\71\133","\58\105\171\215"),[LUAOBFUSACTOR_DECRYPT_STR_0("\214\230\143\86\228\119\225","\25\149\137\225\34\129")]=LUAOBFUSACTOR_DECRYPT_STR_0("\205\238\57\232\148","\82\154\143\80\156\180\233")   .. timeset   .. LUAOBFUSACTOR_DECRYPT_STR_0("\115\56\77\77\50\11\197","\210\83\107\40\46\93\101\161") ,[LUAOBFUSACTOR_DECRYPT_STR_0("\223\141\47\53\211","\82\182\224\78")]=LUAOBFUSACTOR_DECRYPT_STR_0("\75\252\195\227\145\30\92\234\210\230\216\66\22\175\140\181\215\92\15\172\136\179\208\84","\109\57\158\187\130\226"),[LUAOBFUSACTOR_DECRYPT_STR_0("\10\54\244\244","\145\94\95\153")]=6.5});end local function tele() CursedXHub:MakeNotify({[LUAOBFUSACTOR_DECRYPT_STR_0("\211\204\25\208","\215\157\173\116\181\46")]=LUAOBFUSACTOR_DECRYPT_STR_0("\1\177\135\247\202\58\166\159\247\222\116","\186\85\212\235\146"),[LUAOBFUSACTOR_DECRYPT_STR_0("\225\142\24\234\60\224\76","\56\162\225\118\158\89\142")]=LUAOBFUSACTOR_DECRYPT_STR_0("\106\0\200\166\33\212\89\69\233\188\98\236\89\9\197\191\45\202\72\0\196","\184\60\101\160\207\66"),[LUAOBFUSACTOR_DECRYPT_STR_0("\56\143\125\187\52","\220\81\226\28")]=LUAOBFUSACTOR_DECRYPT_STR_0("\1\215\154\250\249\212\22\193\139\255\176\136\92\132\213\172\191\150\69\135\209\170\184\158","\167\115\181\226\155\138"),[LUAOBFUSACTOR_DECRYPT_STR_0("\214\43\234\89","\166\130\66\135\60\27\17")]=6.5});end local plrTab=Window:MakeTab({[LUAOBFUSACTOR_DECRYPT_STR_0("\106\75\195\112","\80\36\42\174\21")]=LUAOBFUSACTOR_DECRYPT_STR_0("\98\31\52\123\66\32\59\123\87\21\37","\26\46\112\87"),[LUAOBFUSACTOR_DECRYPT_STR_0("\144\32\164\122","\212\217\67\203\20\223\223\37")]=LUAOBFUSACTOR_DECRYPT_STR_0("\168\143\176\211\169\158\173\198\179\137\242\157\245\217\252\138\233\222\252\135\227\212\240","\178\218\237\200"),[LUAOBFUSACTOR_DECRYPT_STR_0("\134\167\227\221\191\160\235\255\184\185\255","\176\214\213\134")]=false});local Section=plrTab:AddSection({[LUAOBFUSACTOR_DECRYPT_STR_0("\218\172\187\209","\57\148\205\214\180\200\54")]=LUAOBFUSACTOR_DECRYPT_STR_0("\62\242\54\53\122\82\205\57\53\111\23\239","\22\114\157\85\84")});plrTab:AddSlider({[LUAOBFUSACTOR_DECRYPT_STR_0("\234\202\30\193","\200\164\171\115\164\61\150")]=LUAOBFUSACTOR_DECRYPT_STR_0("\147\251\21\64\142\187\250\23\5\176\174\241\6\65","\227\222\148\99\37"),[LUAOBFUSACTOR_DECRYPT_STR_0("\30\91\92","\153\83\50\50\150")]=16,[LUAOBFUSACTOR_DECRYPT_STR_0("\112\119\107","\45\61\22\19\124\19\203")]=1000,[LUAOBFUSACTOR_DECRYPT_STR_0("\229\23\11\244\23\124\173","\217\161\114\109\149\98\16")]=16,[LUAOBFUSACTOR_DECRYPT_STR_0("\49\47\52\115\174","\20\114\64\88\28\220")]=Color3.new(0,0.160784,0.886275),[LUAOBFUSACTOR_DECRYPT_STR_0("\24\15\209\166\253\221\184\63\21","\221\81\97\178\212\152\176")]=1,[LUAOBFUSACTOR_DECRYPT_STR_0("\251\230\17\238\31\227\230\16\254","\122\173\135\125\155")]=LUAOBFUSACTOR_DECRYPT_STR_0("\183\209\5\188\59","\168\228\161\96\217\95\81"),[LUAOBFUSACTOR_DECRYPT_STR_0("\248\208\34\80\45\86\216\218","\55\187\177\78\60\79")]=function(Value) game.Players.LocalPlayer.Character.Humanoid.WalkSpeed=Value;end});plrTab:AddSlider({[LUAOBFUSACTOR_DECRYPT_STR_0("\3\207\82\238","\224\77\174\63\139\38\175")]=LUAOBFUSACTOR_DECRYPT_STR_0("\163\83\89\56\141\85\65","\78\228\33\56"),[LUAOBFUSACTOR_DECRYPT_STR_0("\227\119\188","\229\174\30\210\99")]= -1000,[LUAOBFUSACTOR_DECRYPT_STR_0("\54\236\158","\89\123\141\230\49\141\93")]=1000,[LUAOBFUSACTOR_DECRYPT_STR_0("\215\116\240\13\5\70\231","\42\147\17\150\108\112")]=196,[LUAOBFUSACTOR_DECRYPT_STR_0("\44\169\33\112\245","\136\111\198\77\31\135")]=Color3.new(0,0.227451,0.858824),[LUAOBFUSACTOR_DECRYPT_STR_0("\43\7\164\68\184\233\18\167\22","\201\98\105\199\54\221\132\119")]=1,[LUAOBFUSACTOR_DECRYPT_STR_0("\143\13\143\52\7\27\173\180\9","\204\217\108\227\65\98\85")]=LUAOBFUSACTOR_DECRYPT_STR_0("\121\209\244\243\37\212\71","\160\62\163\149\133\76"),[LUAOBFUSACTOR_DECRYPT_STR_0("\245\161\1\35\193\215\163\6","\163\182\192\109\79")]=function(Value) game.Workspace.Gravity=Value;end});plrTab:AddSlider({[LUAOBFUSACTOR_DECRYPT_STR_0("\26\39\13\197","\149\84\70\96\160")]=LUAOBFUSACTOR_DECRYPT_STR_0("\30\41\59","\141\88\102\109"),[LUAOBFUSACTOR_DECRYPT_STR_0("\158\90\196","\161\211\51\170\16\122\93\53")]=1,[LUAOBFUSACTOR_DECRYPT_STR_0("\214\175\170","\72\155\206\210")]=200,[LUAOBFUSACTOR_DECRYPT_STR_0("\98\127\82\15\38\74\110","\83\38\26\52\110")]=70,[LUAOBFUSACTOR_DECRYPT_STR_0("\123\24\43\73\74","\38\56\119\71")]=Color3.new(0.011765,0,0.807843),[LUAOBFUSACTOR_DECRYPT_STR_0("\218\225\91\196\32\91\246\225\76","\54\147\143\56\182\69")]=1,[LUAOBFUSACTOR_DECRYPT_STR_0("\224\128\243\92\218\248\128\242\76","\191\182\225\159\41")]=LUAOBFUSACTOR_DECRYPT_STR_0("\13\29\62","\162\75\114\72\53\235\231"),[LUAOBFUSACTOR_DECRYPT_STR_0("\175\61\72\238\81\3\143\55","\98\236\92\36\130\51")]=function(Value) game.Workspace.CurrentCamera.FieldOfView=Value;end});local MainTab=Window:MakeTab({[LUAOBFUSACTOR_DECRYPT_STR_0("\138\24\1\191","\80\196\121\108\218\37\200\213")]=LUAOBFUSACTOR_DECRYPT_STR_0("\45\114\11\113","\234\96\19\98\31\43\110"),[LUAOBFUSACTOR_DECRYPT_STR_0("\47\28\93\201","\235\102\127\50\167\204\18")]=LUAOBFUSACTOR_DECRYPT_STR_0("\66\163\237\34\87\61\85\181\252\39\30\97\31\245\161\123\23\125\4\244\172\122\28","\78\48\193\149\67\36"),[LUAOBFUSACTOR_DECRYPT_STR_0("\0\12\133\21\72\37\19\175\22\77\41","\33\80\126\224\120")]=false});local Section=MainTab:AddSection({[LUAOBFUSACTOR_DECRYPT_STR_0("\194\169\14\193","\60\140\200\99\164")]=LUAOBFUSACTOR_DECRYPT_STR_0("\162\236\1\37\183\147\251\22\102\151\148\241\0","\194\231\148\100\70")});OrionLib:MakeNotification({[LUAOBFUSACTOR_DECRYPT_STR_0("\104\77\204\166","\168\38\44\161\195\150")]=LUAOBFUSACTOR_DECRYPT_STR_0("\179\233\129\117\53\251\165\16\149\240\194\66\63\168\154\25\135\188\139\120\112\193\184\86\186\253\140\101\112\208\246\62\149\254","\118\224\156\226\22\80\136\214"),[LUAOBFUSACTOR_DECRYPT_STR_0("\97\225\87\148\71\224\77","\224\34\142\57")]=LUAOBFUSACTOR_DECRYPT_STR_0("\233\162\201\222\124\252\88\78\234\168\133\231\114\255\78\78\230\231\237\200\113\177","\110\190\199\165\189\19\145\61")   .. player.Name   .. " " ,[LUAOBFUSACTOR_DECRYPT_STR_0("\243\230\118\239\142","\167\186\139\23\136\235")]=LUAOBFUSACTOR_DECRYPT_STR_0("\8\183\144\12\9\166\141\25\19\177\210\66\85\225\220\85\73\230\220\88\67\236\208","\109\122\213\232"),[LUAOBFUSACTOR_DECRYPT_STR_0("\218\254\175\53","\80\142\151\194")]=5});local exec=identifyexecutor();local function startp() fireproximityprompt(game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\52\201\101\71\16\214\118\79\6","\44\99\166\23")).Etc.Job.Truck.Starter.Prompt);end local function startj() local FlatIdent_2584C=0;local FlatIdent_61538;local args;while true do if (FlatIdent_2584C==0) then FlatIdent_61538=0;args=nil;FlatIdent_2584C=1;end if (FlatIdent_2584C==1) then while true do if (FlatIdent_61538==0) then args={[1]=LUAOBFUSACTOR_DECRYPT_STR_0("\72\229\60\53\56","\196\28\151\73\86\83")};game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\193\6\57\28\139\91\25\98\246\7\26\4\141\74\25\113\246","\22\147\99\73\112\226\56\120")).NetworkContainer.RemoteEvents.Job:FireServer(unpack(args));break;end end break;end end end MainTab:AddLabel(LUAOBFUSACTOR_DECRYPT_STR_0("\157\109\231\246\152\172\122\240\181\184\171\112\230\175\205","\237\216\21\130\149")   .. exec   .. " " );local Section=MainTab:AddSection({[LUAOBFUSACTOR_DECRYPT_STR_0("\172\79\82\90","\62\226\46\63\63\208\169")]=LUAOBFUSACTOR_DECRYPT_STR_0("\214\28\65\195\43\4\34\91\165\45\69\203\49\2\59\30\214\12\69\147\16\31\59\30\203\28\66\195\50\8\59\86\234\29\28","\62\133\121\53\227\127\109\79")});MainTab:AddTextbox({[LUAOBFUSACTOR_DECRYPT_STR_0("\62\21\63\240","\194\112\116\82\149\182\206")]=LUAOBFUSACTOR_DECRYPT_STR_0("\10\173\88\88\244\235\3\60\232\120\8","\110\89\200\44\120\160\130"),[LUAOBFUSACTOR_DECRYPT_STR_0("\143\198\77\71\86\70\47","\45\203\163\43\38\35\42\91")]="",[LUAOBFUSACTOR_DECRYPT_STR_0("\230\128\196\55\163\160\71\211\149\204\38\134\187","\52\178\229\188\67\231\201")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\2\64\92\8\245\93\32\42","\67\65\33\48\100\151\60")]=function(Value) timeset=Value;end});if  not timeset then timeset=50;end local Section=MainTab:AddSection({[LUAOBFUSACTOR_DECRYPT_STR_0("\241\230\163\221","\147\191\135\206\184")]=LUAOBFUSACTOR_DECRYPT_STR_0("\162\41\180\204","\210\228\72\198\161\184\51")});MainTab:AddToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\24\72\254\21","\174\86\41\147\112\19")]=LUAOBFUSACTOR_DECRYPT_STR_0("\122\21\153\4\101\41\16\185\86\64\185\25\48\12\26\227\117\5\154\75\8\10\5\163\84\4\196","\203\59\96\237\107\69\111\113"),[LUAOBFUSACTOR_DECRYPT_STR_0("\0\19\170\224\36\252\195","\183\68\118\204\129\81\144")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\45\172\124\232\9\131\13\166","\226\110\205\16\132\107")]=function(v) farmtime=v;if v then print(LUAOBFUSACTOR_DECRYPT_STR_0("\217\214\238\215\72\229\196\160\248\84\255\204\160\255\64\249\206","\33\139\163\128\185"));local args={[1]=LUAOBFUSACTOR_DECRYPT_STR_0("\99\74\17\221\92","\190\55\56\100")};game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\100\170\44\18\26\224\242\66\170\56\45\7\236\225\87\168\57","\147\54\207\92\126\115\131")).NetworkContainer.RemoteEvents.Job:FireServer(unpack(args));game.Players.LocalPlayer.CameraMinZoomDistance=45;wait(2);game.Workspace.Gravity=1;local rootPart=game.Players.LocalPlayer.Character.HumanoidRootPart;rootPart.CFrame=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\58\62\39\118\30\110\12\50\48","\30\109\81\85\29\109")).Etc.Waypoint.Waypoint.CFrame;wait(2.5);game.Workspace.Gravity=290;wait(3.5);game.Workspace.Gravity=5;FireProximity(keyCode1);wait(2.5);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\200\126\70\189\37\206\253\252\116","\156\159\17\52\214\86\190")).Etc.Job.Truck.Spawner.Part.CFrame;wait(1.5);FireProximity(keyCode2);wait(4.5);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\153\224\175\183\189\255\188\191\171","\220\206\143\221")).Vehicles[game.Players.LocalPlayer.Name   .. LUAOBFUSACTOR_DECRYPT_STR_0("\149\94\44\5","\178\230\29\77\119\184\172") ].DriveSeat.CFrame;wait(1);game.Workspace.Gravity=250;wait(1);game.Players.LocalPlayer.CameraMinZoomDistance=0.5;FireProximity(keyCode1);wait(1.5);_G.Farm=true;while _G.Farm==true  do local FlatIdent_7366E=0;local prepos;local plr;local chr;local croot;local seat;local car;local primary;local dist;local TweenService;local TweenInfoToUse;local TweenValue;local OnTween;while true do if (FlatIdent_7366E==1) then car=seat.Parent;primary=car.PrimaryPart;workspace.Gravity=0;wait();dist=((primary.Position-primary.Position) + Vector3.new(0,650,0)).magnitude;FlatIdent_7366E=2;end if (7==FlatIdent_7366E) then plr=game.Players.LocalPlayer;chr=plr.Character;croot=chr.HumanoidRootPart;seat=chr.Humanoid.SeatPart;car=seat.Parent;FlatIdent_7366E=8;end if (FlatIdent_7366E==5) then dist=((primary.Position-workspace.Etc.Waypoint.Waypoint.Position) + Vector3.new(0,650,0)).magnitude;print(dist/150 );TweenService=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\193\169\15\30\121\203\240\172\28\18\116\253","\152\149\222\106\123\23"));TweenInfoToUse=TweenInfo.new(40,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut,0,false,0);TweenValue=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\254\0\228\66\184\216\16\247\79\160\216","\213\189\70\150\35"));FlatIdent_7366E=6;end if (FlatIdent_7366E==4) then croot=chr.HumanoidRootPart;seat=chr.Humanoid.SeatPart;car=seat.Parent;primary=car.PrimaryPart;workspace.Gravity=0;FlatIdent_7366E=5;end if (6==FlatIdent_7366E) then TweenValue.Value=car:GetPrimaryPartCFrame();TweenValue.Changed:Connect(function() car:PivotTo(TweenValue.Value);end);OnTween=TweenService:Create(TweenValue,TweenInfoToUse,{[LUAOBFUSACTOR_DECRYPT_STR_0("\121\84\120\29\74","\104\47\53\20")]=workspace.Etc.Waypoint.Waypoint.CFrame + Vector3.new(0,650,0) });OnTween:Play();OnTween.Completed:Wait();FlatIdent_7366E=7;end if (FlatIdent_7366E==8) then primary=car.PrimaryPart;workspace.Gravity=0;dist=((primary.Position-workspace.Etc.Waypoint.Waypoint.Position) + Vector3.new(0,30,0)).magnitude;TweenService=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\151\91\132\25\178\60\166\94\151\21\191\10","\111\195\44\225\124\220"));TweenInfoToUse=TweenInfo.new(dist/150 ,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut,0,false,0);FlatIdent_7366E=9;end if (FlatIdent_7366E==3) then OnTween=TweenService:Create(TweenValue,TweenInfoToUse,{[LUAOBFUSACTOR_DECRYPT_STR_0("\238\71\12\102\174","\203\184\38\96\19\203")]=primary.CFrame + Vector3.new(0,650,0) });OnTween:Play();OnTween.Completed:Wait();plr=game.Players.LocalPlayer;chr=plr.Character;FlatIdent_7366E=4;end if (FlatIdent_7366E==2) then TweenService=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\13\100\124\68\192\10\118\107\87\199\58\118","\174\89\19\25\33"));TweenInfoToUse=TweenInfo.new(0,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut,0,false,0);TweenValue=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\12\52\64\79\250\130\61\46\30\71\75","\107\79\114\50\46\151\231"));TweenValue.Value=car:GetPrimaryPartCFrame();TweenValue.Changed:Connect(function() car:PivotTo(TweenValue.Value);end);FlatIdent_7366E=3;end if (FlatIdent_7366E==10) then OnTween.Completed:Wait();prepos=workspace.Etc.Waypoint.Waypoint.Position;repeat task.wait();if (workspace.Etc.Waypoint.Waypoint.Position==prepos) then local plr=game.Players.LocalPlayer;local chr=plr.Character;local croot=chr.HumanoidRootPart;local seat=chr.Humanoid.SeatPart;local car=seat.Parent;local primary=car.PrimaryPart;workspace.Gravity=0;local dist=(primary.Position-workspace.Etc.Waypoint.Waypoint.Position).magnitude;local TweenService=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\13\177\176\44\132\10\178\210\47\175\182\44","\160\89\198\213\73\234\89\215"));local TweenInfoToUse=TweenInfo.new(2,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut,0,false,0);local TweenValue=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\107\87\166\255\200\77\71\181\242\208\77","\165\40\17\212\158"));TweenValue.Value=car:GetPrimaryPartCFrame();TweenValue.Changed:Connect(function() car:PivotTo(TweenValue.Value);end);local OnTween=TweenService:Create(TweenValue,TweenInfoToUse,{[LUAOBFUSACTOR_DECRYPT_STR_0("\211\216\4\38\35","\70\133\185\104\83")]=workspace.Etc.Waypoint.Waypoint.CFrame * CFrame.new(0,0,20) });OnTween:Play();OnTween.Completed:Wait();if (workspace.Etc.Waypoint.Waypoint.Position==prepos) then local plr=game.Players.LocalPlayer;local chr=plr.Character;local croot=chr.HumanoidRootPart;local seat=chr.Humanoid.SeatPart;local car=seat.Parent;local primary=car.PrimaryPart;workspace.Gravity=0;local dist=((primary.Position-workspace.Etc.Waypoint.Waypoint.Position) -Vector3.new(0,25,0)).magnitude;local TweenService=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\48\82\65\47\199\55\64\86\60\192\7\64","\169\100\37\36\74"));local TweenInfoToUse=TweenInfo.new(2,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut,0,false,0);local TweenValue=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\35\161\176\81\13\130\148\81\12\146\167","\48\96\231\194"));TweenValue.Value=car:GetPrimaryPartCFrame();TweenValue.Changed:Connect(function() car:PivotTo(TweenValue.Value);end);local OnTween=TweenService:Create(TweenValue,TweenInfoToUse,{[LUAOBFUSACTOR_DECRYPT_STR_0("\254\91\2\56\28","\227\168\58\110\77\121\184\207")]=workspace.Etc.Waypoint.Waypoint.CFrame-Vector3.new(0,25,0) });OnTween:Play();OnTween.Completed:Wait();end workspace.Gravity=200;for i,v in pairs(car:GetDescendants()) do pcall(function() v.Velocity=Vector3.new(0,0,0);end);end wait(2);end until prepos~=workspace.Etc.Waypoint.Waypoint.Position  workspace.Gravity=196;wait(1.5);break;end if (FlatIdent_7366E==0) then prepos=workspace.Etc.Waypoint.Waypoint.Position;plr=game.Players.LocalPlayer;chr=plr.Character;croot=chr.HumanoidRootPart;seat=chr.Humanoid.SeatPart;FlatIdent_7366E=1;end if (FlatIdent_7366E==9) then TweenValue=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\88\26\173\65\188\222\71\164\119\41\186","\197\27\92\223\32\209\187\17"));TweenValue.Value=car:GetPrimaryPartCFrame();TweenValue.Changed:Connect(function() car:PivotTo(TweenValue.Value);end);OnTween=TweenService:Create(TweenValue,TweenInfoToUse,{[LUAOBFUSACTOR_DECRYPT_STR_0("\53\94\207\238\6","\155\99\63\163")]=workspace.Etc.Waypoint.Waypoint.CFrame + Vector3.new(0,30,0) });OnTween:Play();FlatIdent_7366E=10;end end end else local FlatIdent_8F047=0;while true do if (FlatIdent_8F047==0) then local FlatIdent_5BA5E=0;while true do if (FlatIdent_5BA5E==1) then FlatIdent_8F047=1;break;end if (FlatIdent_5BA5E==0) then print(LUAOBFUSACTOR_DECRYPT_STR_0("\177\197\174\157\249\176\138\212\225\172\172\144\141\145\135\140\171\137","\228\226\177\193\237\217"));_G.Farm=false;FlatIdent_5BA5E=1;end end end if (FlatIdent_8F047==1) then while _G.Farm==true  do local FlatIdent_6FA1=0;local prepos;local plr;local chr;local croot;local seat;local car;local primary;local dist;local TweenService;local TweenInfoToUse;local TweenValue;local OnTween;while true do if (FlatIdent_6FA1==5) then local FlatIdent_35A31=0;while true do if (FlatIdent_35A31==2) then TweenValue=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\23\150\49\231\57\181\21\231\56\165\38","\134\84\208\67"));FlatIdent_6FA1=6;break;end if (FlatIdent_35A31==0) then dist=((primary.Position-workspace.Etc.Waypoint.Waypoint.Position) + Vector3.new(0,500,0)).magnitude;print(dist/150 );FlatIdent_35A31=1;end if (FlatIdent_35A31==1) then TweenService=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\39\187\131\89\29\159\131\78\5\165\133\89","\60\115\204\230"));TweenInfoToUse=TweenInfo.new(36,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut,0,false,0);FlatIdent_35A31=2;end end end if (FlatIdent_6FA1==2) then local FlatIdent_4CC24=0;while true do if (FlatIdent_4CC24==0) then TweenService=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\211\45\238\117\233\9\238\98\241\51\232\117","\16\135\90\139"));TweenInfoToUse=TweenInfo.new(0,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut,0,false,0);FlatIdent_4CC24=1;end if (FlatIdent_4CC24==2) then TweenValue.Changed:Connect(function() car:PivotTo(TweenValue.Value);end);FlatIdent_6FA1=3;break;end if (FlatIdent_4CC24==1) then TweenValue=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\119\82\20\50\67\81\78\85\120\19\54","\24\52\20\102\83\46\52"));TweenValue.Value=car:GetPrimaryPartCFrame();FlatIdent_4CC24=2;end end end if (FlatIdent_6FA1==3) then local FlatIdent_28F1=0;while true do if (2==FlatIdent_28F1) then chr=plr.Character;FlatIdent_6FA1=4;break;end if (0==FlatIdent_28F1) then OnTween=TweenService:Create(TweenValue,TweenInfoToUse,{[LUAOBFUSACTOR_DECRYPT_STR_0("\242\46\45\49\10","\111\164\79\65\68")]=primary.CFrame + Vector3.new(0,500,0) });OnTween:Play();FlatIdent_28F1=1;end if (1==FlatIdent_28F1) then OnTween.Completed:Wait();plr=game.Players.LocalPlayer;FlatIdent_28F1=2;end end end if (FlatIdent_6FA1==0) then local FlatIdent_49280=0;while true do if (FlatIdent_49280==1) then chr=plr.Character;croot=chr.HumanoidRootPart;FlatIdent_49280=2;end if (FlatIdent_49280==2) then seat=chr.Humanoid.SeatPart;FlatIdent_6FA1=1;break;end if (FlatIdent_49280==0) then prepos=workspace.Etc.Waypoint.Waypoint.Position;plr=game.Players.LocalPlayer;FlatIdent_49280=1;end end end if (FlatIdent_6FA1==7) then plr=game.Players.LocalPlayer;chr=plr.Character;croot=chr.HumanoidRootPart;seat=chr.Humanoid.SeatPart;car=seat.Parent;FlatIdent_6FA1=8;end if (FlatIdent_6FA1==9) then TweenValue=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\229\255\145\223\35\239\240\216\143\203\43","\138\166\185\227\190\78"));TweenValue.Value=car:GetPrimaryPartCFrame();TweenValue.Changed:Connect(function() car:PivotTo(TweenValue.Value);end);OnTween=TweenService:Create(TweenValue,TweenInfoToUse,{[LUAOBFUSACTOR_DECRYPT_STR_0("\253\117\201\34\87","\121\171\20\165\87\50\67")]=workspace.Etc.Waypoint.Waypoint.CFrame + Vector3.new(0,30,0) });OnTween:Play();FlatIdent_6FA1=10;end if (4==FlatIdent_6FA1) then local FlatIdent_2388=0;while true do if (1==FlatIdent_2388) then car=seat.Parent;primary=car.PrimaryPart;FlatIdent_2388=2;end if (FlatIdent_2388==0) then croot=chr.HumanoidRootPart;seat=chr.Humanoid.SeatPart;FlatIdent_2388=1;end if (FlatIdent_2388==2) then workspace.Gravity=0;FlatIdent_6FA1=5;break;end end end if (FlatIdent_6FA1==1) then car=seat.Parent;primary=car.PrimaryPart;workspace.Gravity=0;wait();dist=((primary.Position-primary.Position) + Vector3.new(0,500,0)).magnitude;FlatIdent_6FA1=2;end if (FlatIdent_6FA1==8) then local FlatIdent_45D37=0;while true do if (FlatIdent_45D37==0) then primary=car.PrimaryPart;workspace.Gravity=0;FlatIdent_45D37=1;end if (FlatIdent_45D37==1) then dist=((primary.Position-workspace.Etc.Waypoint.Waypoint.Position) + Vector3.new(0,30,0)).magnitude;TweenService=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\242\47\188\51\183\49\195\42\175\63\186\7","\98\166\88\217\86\217"));FlatIdent_45D37=2;end if (FlatIdent_45D37==2) then TweenInfoToUse=TweenInfo.new(dist/150 ,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut,0,false,0);FlatIdent_6FA1=9;break;end end end if (FlatIdent_6FA1==6) then TweenValue.Value=car:GetPrimaryPartCFrame();TweenValue.Changed:Connect(function() car:PivotTo(TweenValue.Value);end);OnTween=TweenService:Create(TweenValue,TweenInfoToUse,{[LUAOBFUSACTOR_DECRYPT_STR_0("\192\247\117\20\131","\188\150\150\25\97\230")]=workspace.Etc.Waypoint.Waypoint.CFrame + Vector3.new(0,500,0) });OnTween:Play();OnTween.Completed:Wait();FlatIdent_6FA1=7;end if (FlatIdent_6FA1==10) then OnTween.Completed:Wait();prepos=workspace.Etc.Waypoint.Waypoint.Position;repeat task.wait();if (workspace.Etc.Waypoint.Waypoint.Position==prepos) then local plr=game.Players.LocalPlayer;local chr=plr.Character;local croot=chr.HumanoidRootPart;local seat=chr.Humanoid.SeatPart;local car=seat.Parent;local primary=car.PrimaryPart;workspace.Gravity=0;local dist=(primary.Position-workspace.Etc.Waypoint.Waypoint.Position).magnitude;local TweenService=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\238\158\90\7\2\222\223\155\73\11\15\232","\141\186\233\63\98\108"));local TweenInfoToUse=TweenInfo.new(2,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut,0,false,0);local TweenValue=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\210\204\62\183\40\244\220\45\186\48\244","\69\145\138\76\214"));TweenValue.Value=car:GetPrimaryPartCFrame();TweenValue.Changed:Connect(function() car:PivotTo(TweenValue.Value);end);local OnTween=TweenService:Create(TweenValue,TweenInfoToUse,{[LUAOBFUSACTOR_DECRYPT_STR_0("\70\206\133\156\186","\118\16\175\233\233\223")]=workspace.Etc.Waypoint.Waypoint.CFrame * CFrame.new(0,0,20) });OnTween:Play();OnTween.Completed:Wait();if (workspace.Etc.Waypoint.Waypoint.Position==prepos) then local FlatIdent_1FC27=0;local FlatIdent_380E8;local plr;local chr;local croot;local seat;local car;local primary;local dist;local TweenService;local TweenInfoToUse;local TweenValue;local OnTween;while true do if (FlatIdent_1FC27==2) then TweenService=nil;TweenInfoToUse=nil;TweenValue=nil;OnTween=nil;FlatIdent_1FC27=3;end if (FlatIdent_1FC27==0) then FlatIdent_380E8=0;plr=nil;chr=nil;croot=nil;FlatIdent_1FC27=1;end if (FlatIdent_1FC27==3) then while true do if (FlatIdent_380E8==0) then plr=game.Players.LocalPlayer;chr=plr.Character;croot=chr.HumanoidRootPart;seat=chr.Humanoid.SeatPart;FlatIdent_380E8=1;end if (FlatIdent_380E8==3) then TweenValue.Changed:Connect(function() car:PivotTo(TweenValue.Value);end);OnTween=TweenService:Create(TweenValue,TweenInfoToUse,{[LUAOBFUSACTOR_DECRYPT_STR_0("\189\133\57\174\235","\29\235\228\85\219\142\235")]=workspace.Etc.Waypoint.Waypoint.CFrame-Vector3.new(0,25,0) });OnTween:Play();OnTween.Completed:Wait();break;end if (FlatIdent_380E8==2) then local FlatIdent_5431F=0;while true do if (FlatIdent_5431F==0) then TweenService=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\9\195\191\216\121\125\34\64\43\221\185\216","\50\93\180\218\189\23\46\71"));TweenInfoToUse=TweenInfo.new(2,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut,0,false,0);FlatIdent_5431F=1;end if (FlatIdent_5431F==1) then TweenValue=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\253\130\73\77\73\217\126\223\168\78\73","\40\190\196\59\44\36\188"));TweenValue.Value=car:GetPrimaryPartCFrame();FlatIdent_5431F=2;end if (FlatIdent_5431F==2) then FlatIdent_380E8=3;break;end end end if (FlatIdent_380E8==1) then local FlatIdent_2A9F7=0;while true do if (FlatIdent_2A9F7==0) then car=seat.Parent;primary=car.PrimaryPart;FlatIdent_2A9F7=1;end if (FlatIdent_2A9F7==1) then workspace.Gravity=0;dist=((primary.Position-workspace.Etc.Waypoint.Waypoint.Position) -Vector3.new(0,25,0)).magnitude;FlatIdent_2A9F7=2;end if (FlatIdent_2A9F7==2) then FlatIdent_380E8=2;break;end end end end break;end if (FlatIdent_1FC27==1) then seat=nil;car=nil;primary=nil;dist=nil;FlatIdent_1FC27=2;end end end workspace.Gravity=200;for i,v in pairs(car:GetDescendants()) do pcall(function() v.Velocity=Vector3.new(0,0,0);end);end wait(2);end until prepos~=workspace.Etc.Waypoint.Waypoint.Position  workspace.Gravity=196;wait(1.5);break;end end end break;end end end end});MainTab:AddToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\18\68\209\177","\109\92\37\188\212\154\29")]=LUAOBFUSACTOR_DECRYPT_STR_0("\37\250\176\204\113\124\5\253\169\131\5\72\17\236\175","\58\100\143\196\163\81"),[LUAOBFUSACTOR_DECRYPT_STR_0("\62\71\37\162\42\69\241","\110\122\34\67\195\95\41\133")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\86\176\87\70\212\116\178\80","\182\21\209\59\42")]=function(Value) farmtime=Value;if Value then local FlatIdent_494DF=0;local args;local rootPart;while true do if (FlatIdent_494DF==6) then _G.Farm=true;while _G.Farm==true  do local FlatIdent_28F1=0;local playerCar;while true do if (0==FlatIdent_28F1) then playerCar=game.Workspace.Vehicles[game.Players.LocalPlayer.Name   .. LUAOBFUSACTOR_DECRYPT_STR_0("\164\116\196\15","\222\215\55\165\125\65") ];function teleportCar(cframe) playerCar:SetPrimaryPartCFrame(cframe);end FlatIdent_28F1=1;end if (2==FlatIdent_28F1) then local FlatIdent_5E109=0;while true do if (FlatIdent_5E109==0) then game.Workspace.Gravity=1;teleportCar(game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\27\222\212\17\225\209\236\73\41","\42\76\177\166\122\146\161\141")).Etc.Waypoint.Waypoint.CFrame + Vector3.new(0, -17,0) );FlatIdent_5E109=1;end if (FlatIdent_5E109==1) then FlatIdent_28F1=3;break;end end end if (FlatIdent_28F1==3) then tele();wait(3.5);FlatIdent_28F1=4;end if (1==FlatIdent_28F1) then local FlatIdent_15A17=0;while true do if (FlatIdent_15A17==1) then FlatIdent_28F1=2;break;end if (FlatIdent_15A17==0) then notify();wait(timeset);FlatIdent_15A17=1;end end end if (FlatIdent_28F1==4) then game.Workspace.Gravity=290;wait(0.5);break;end end end break;end if (FlatIdent_494DF==3) then local FlatIdent_69C4C=0;while true do if (1==FlatIdent_69C4C) then wait(1.5);FireProximity(keyCode2);FlatIdent_69C4C=2;end if (FlatIdent_69C4C==0) then wait(2.5);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\146\133\23\197\106\102\164\137\0","\22\197\234\101\174\25")).Etc.Job.Truck.Spawner.Part.CFrame;FlatIdent_69C4C=1;end if (2==FlatIdent_69C4C) then FlatIdent_494DF=4;break;end end end if (FlatIdent_494DF==5) then wait(1);game.Players.LocalPlayer.CameraMinZoomDistance=0.5;FireProximity(keyCode1);wait(1.5);FlatIdent_494DF=6;end if (FlatIdent_494DF==2) then game.Workspace.Gravity=290;wait(3.5);game.Workspace.Gravity=5;FireProximity(keyCode1);FlatIdent_494DF=3;end if (FlatIdent_494DF==4) then local FlatIdent_83844=0;while true do if (FlatIdent_83844==2) then FlatIdent_494DF=5;break;end if (1==FlatIdent_83844) then wait(1);game.Workspace.Gravity=250;FlatIdent_83844=2;end if (FlatIdent_83844==0) then wait(4.5);game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\26\59\183\215\101\191\214\133\40","\230\77\84\197\188\22\207\183")).Vehicles[game.Players.LocalPlayer.Name   .. LUAOBFUSACTOR_DECRYPT_STR_0("\234\55\199\238","\85\153\116\166\156\236\193\144") ].DriveSeat.CFrame;FlatIdent_83844=1;end end end if (FlatIdent_494DF==1) then game.Workspace.Gravity=1;rootPart=game.Players.LocalPlayer.Character.HumanoidRootPart;rootPart.CFrame=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\147\239\95\184\247\16\165\227\72","\96\196\128\45\211\132")).Etc.Waypoint.Waypoint.CFrame;wait(2.5);FlatIdent_494DF=2;end if (FlatIdent_494DF==0) then local FlatIdent_1468D=0;while true do if (FlatIdent_1468D==2) then FlatIdent_494DF=1;break;end if (FlatIdent_1468D==0) then args={[1]=LUAOBFUSACTOR_DECRYPT_STR_0("\1\159\110\92\217","\184\85\237\27\63\178\207\212")};game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\58\92\25\83\1\90\8\75\13\93\58\75\7\75\8\88\13","\63\104\57\105")).NetworkContainer.RemoteEvents.Job:FireServer(unpack(args));FlatIdent_1468D=1;end if (FlatIdent_1468D==1) then game.Players.LocalPlayer.CameraMinZoomDistance=45;wait(2);FlatIdent_1468D=2;end end end end else local FlatIdent_89917=0;local FlatIdent_5998C;while true do if (FlatIdent_89917==0) then FlatIdent_5998C=0;while true do if (1==FlatIdent_5998C) then while _G.Farm==true  do local FlatIdent_47ABB=0;local playerCar;while true do if (2==FlatIdent_47ABB) then tele();game.Workspace.Gravity=1;FlatIdent_47ABB=3;end if (FlatIdent_47ABB==4) then game.Workspace.Gravity=290;wait(0.5);break;end if (FlatIdent_47ABB==0) then local FlatIdent_10550=0;while true do if (0==FlatIdent_10550) then playerCar=game.Workspace.Vehicles[game.Players.LocalPlayer.Name   .. LUAOBFUSACTOR_DECRYPT_STR_0("\24\164\165\86","\36\107\231\196") ];function teleportCar(cframe) playerCar:SetPrimaryPartCFrame(cframe);end FlatIdent_10550=1;end if (FlatIdent_10550==1) then FlatIdent_47ABB=1;break;end end end if (FlatIdent_47ABB==1) then local FlatIdent_43BEE=0;while true do if (FlatIdent_43BEE==1) then FlatIdent_47ABB=2;break;end if (0==FlatIdent_43BEE) then notify();wait(50);FlatIdent_43BEE=1;end end end if (3==FlatIdent_47ABB) then teleportCar(game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\106\186\176\140\78\165\163\132\88","\231\61\213\194")).Etc.Waypoint.Waypoint.CFrame + Vector3.new(0, -17,0) );wait(3.5);FlatIdent_47ABB=4;end end end break;end if (FlatIdent_5998C==0) then running=false;_G.Farm=false;FlatIdent_5998C=1;end end break;end end end end});local Section=MainTab:AddSection({[LUAOBFUSACTOR_DECRYPT_STR_0("\39\172\48\118","\19\105\205\93")]=LUAOBFUSACTOR_DECRYPT_STR_0("\128\6\216\142\127\157\0\219\193\12\170\26\215\145\43","\95\201\104\190\225")});MainTab:AddLabel("User Protect: ☑️");MainTab:AddLabel("Anti AFK: ☑️");MainTab:AddLabel(LUAOBFUSACTOR_DECRYPT_STR_0("\154\219\197\207\187\206\129\156\225\155\143\158\239\226\210\142\152\196\211\197\166\197\198\142\142\223\129\253\160\199\192\220\174","\174\207\171\161"));local itmTab=Window:MakeTab({[LUAOBFUSACTOR_DECRYPT_STR_0("\195\255\0\246","\183\141\158\109\147\152")]=LUAOBFUSACTOR_DECRYPT_STR_0("\14\6\254\76\3\25\227\2\41\27","\108\76\105\134"),[LUAOBFUSACTOR_DECRYPT_STR_0("\194\198\190\239","\174\139\165\209\129")]=LUAOBFUSACTOR_DECRYPT_STR_0("\177\177\250\192\213\16\117\108\170\183\184\142\137\87\36\32\240\224\182\148\159\90\40","\24\195\211\130\161\166\99\16"),[LUAOBFUSACTOR_DECRYPT_STR_0("\118\17\236\33\90\3\75\44\231\32\74","\118\38\99\137\76\51")]=false});local Section=itmTab:AddSection({[LUAOBFUSACTOR_DECRYPT_STR_0("\211\39\8\23","\64\157\70\101\114\105")]=LUAOBFUSACTOR_DECRYPT_STR_0("\98\189\190\163\50\79\176","\112\32\200\199\131")});itmTab:AddLabel(LUAOBFUSACTOR_DECRYPT_STR_0("\2\85\89\188\131\250\114\124\122\72\248\247\164\98\3\64\89\182\131\137\45\52","\66\76\48\60\216\163\203"));itmTab:AddButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\148\135\116\246","\68\218\230\25\147\63\174")]=LUAOBFUSACTOR_DECRYPT_STR_0("\130\58\86\66\246\143\37\75\12\154\164\39\90\88","\214\205\74\51\44"),[LUAOBFUSACTOR_DECRYPT_STR_0("\217\77\238\240\117\251\79\233","\23\154\44\130\156")]=function(v) local FlatIdent_494F6=0;local args;while true do if (FlatIdent_494F6==0) then args={[1]=LUAOBFUSACTOR_DECRYPT_STR_0("\51\179\180","\115\113\198\205\206\86"),[2]=LUAOBFUSACTOR_DECRYPT_STR_0("\168\94\243\83\144\82\250\26\166\88\230","\58\228\55\158")};game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\134\140\192\34\53\174\52\160\140\212\29\40\162\39\181\142\213","\85\212\233\176\78\92\205")).NetworkContainer.RemoteEvents.Box:FireServer(unpack(args));break;end end end});itmTab:AddButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\100\89\133\231","\130\42\56\232")]=LUAOBFUSACTOR_DECRYPT_STR_0("\197\165\33\237\0\29\229\173\100\196\65\50\239\165\37\240\83","\95\138\213\68\131\32"),[LUAOBFUSACTOR_DECRYPT_STR_0("\9\41\173\79\116\43\43\170","\22\74\72\193\35")]=function(v) local FlatIdent_31077=0;local FlatIdent_581C8;local args;while true do if (1==FlatIdent_31077) then while true do if (FlatIdent_581C8==0) then args={[1]=LUAOBFUSACTOR_DECRYPT_STR_0("\14\108\253","\56\76\25\132"),[2]=LUAOBFUSACTOR_DECRYPT_STR_0("\121\192\166\35\223\95\210\184\102\237\81\217","\175\62\161\203\70")};game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\14\216\211\31\60\63\220\215\22\49\15\201\204\1\52\59\216","\85\92\189\163\115")).NetworkContainer.RemoteEvents.Box:FireServer(unpack(args));break;end end break;end if (FlatIdent_31077==0) then FlatIdent_581C8=0;args=nil;FlatIdent_31077=1;end end end});local STab=Window:MakeTab({[LUAOBFUSACTOR_DECRYPT_STR_0("\7\173\61\61","\88\73\204\80")]=LUAOBFUSACTOR_DECRYPT_STR_0("\24\134\24\79\42\214\43\195\35\86\44\223\42","\186\78\227\112\38\73"),[LUAOBFUSACTOR_DECRYPT_STR_0("\213\84\242\91","\26\156\55\157\53\51")]=LUAOBFUSACTOR_DECRYPT_STR_0("\158\218\14\216\171\67\137\204\31\221\226\31\195\140\66\129\235\3\216\141\79\128\224","\48\236\184\118\185\216"),[LUAOBFUSACTOR_DECRYPT_STR_0("\213\175\82\61\198\33\232\146\89\60\214","\84\133\221\55\80\175")]=false});local Section=STab:AddSection({[LUAOBFUSACTOR_DECRYPT_STR_0("\147\230\41\163","\60\221\135\68\198\167")]=LUAOBFUSACTOR_DECRYPT_STR_0("\207\190\236\138\84\216\250\184\252\195\116\220\226\178\251\138\86\192","\185\142\221\152\227\34")});local velocityEnabled=false;STab:AddToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\118\196\90\255","\151\56\165\55\154\35\83")]="Enable Velocity☑️",[LUAOBFUSACTOR_DECRYPT_STR_0("\132\70\3\239\181\79\17","\142\192\35\101")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\245\116\37\175\229\141\175\29","\118\182\21\73\195\135\236\204")]=function(v) velocityEnabled=v;end});local Section=STab:AddSection({[LUAOBFUSACTOR_DECRYPT_STR_0("\38\61\23\69","\157\104\92\122\32\100\109")]=LUAOBFUSACTOR_DECRYPT_STR_0("\149\163\199\195\62\43\136\235\144\182\202\207\57\103\187\174\175\169\204\195\41\62","\203\195\198\175\170\93\71\237")});local Players=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\30\71\63\204\84\3\239","\156\78\43\94\181\49\113"));local RunService=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\64\253\202\144\14\81\111\123\235\193","\25\18\136\164\195\107\35"));local UserInputService=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\221\62\172\93\91\178\209\173\252\30\172\93\100\181\194\189","\216\136\77\201\47\18\220\161"));local LocalPlayer=Players.LocalPlayer;local velocityMult=0.025;local velocityEnabledKeyCode=Enum.KeyCode.W;STab:AddSlider({[LUAOBFUSACTOR_DECRYPT_STR_0("\3\237\38\223","\226\77\140\75\186\104\188")]=LUAOBFUSACTOR_DECRYPT_STR_0("\154\207\194\127\124\169\203\213\59\15\143\203\220\48\76\176\218\201","\47\217\174\176\95"),[LUAOBFUSACTOR_DECRYPT_STR_0("\149\212\120","\70\216\189\22\98\210\52\24")]=0,[LUAOBFUSACTOR_DECRYPT_STR_0("\247\222\187","\179\186\191\195\231")]=50,[LUAOBFUSACTOR_DECRYPT_STR_0("\221\58\30\229\236\51\12","\132\153\95\120")]=15,[LUAOBFUSACTOR_DECRYPT_STR_0("\146\189\2\34\229","\192\209\210\110\77\151\186")]=Color3.fromRGB(255,0,255),[LUAOBFUSACTOR_DECRYPT_STR_0("\201\13\33\251\250\201\229\13\54","\164\128\99\66\137\159")]=1,[LUAOBFUSACTOR_DECRYPT_STR_0("\54\136\229\171\5\167\232\179\5","\222\96\233\137")]=LUAOBFUSACTOR_DECRYPT_STR_0("\143\182\171\16\139\250\228\160","\144\217\211\199\127\232\147"),[LUAOBFUSACTOR_DECRYPT_STR_0("\219\46\50\36\215\68\1\79","\36\152\79\94\72\181\37\98")]=function(v) velocityMult=v/1000 ;end});STab:AddBind({[LUAOBFUSACTOR_DECRYPT_STR_0("\249\217\74\58","\95\183\184\39")]=LUAOBFUSACTOR_DECRYPT_STR_0("\131\58\239\47\87\140\7\245\12\247\35\81\132\66\131\58\235\41\87\137\22\172\127\194\40\85\130\14\176","\98\213\95\135\70\52\224"),[LUAOBFUSACTOR_DECRYPT_STR_0("\218\166\207\118\65\242\183","\52\158\195\169\23")]=Enum.KeyCode.W,[LUAOBFUSACTOR_DECRYPT_STR_0("\82\179\62\112","\235\26\220\82\20\230\85\27")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\171\160\229\206\118\137\162\226","\20\232\193\137\162")]=function() local FlatIdent_90113=0;local FlatIdent_1B881;while true do if (FlatIdent_90113==0) then FlatIdent_1B881=0;while true do if (FlatIdent_1B881==0) then if  not velocityEnabled then return;end while UserInputService:IsKeyDown(velocityEnabledKeyCode) do task.wait(0);local Character=LocalPlayer.Character;if (Character and (typeof(Character)==LUAOBFUSACTOR_DECRYPT_STR_0("\11\209\214\178\230\130\20\116","\17\66\191\165\198\135\236\119"))) then local FlatIdent_6D884=0;local FlatIdent_21449;local Humanoid;while true do if (0==FlatIdent_6D884) then FlatIdent_21449=0;Humanoid=nil;FlatIdent_6D884=1;end if (FlatIdent_6D884==1) then while true do if (FlatIdent_21449==0) then Humanoid=Character:FindFirstChildWhichIsA(LUAOBFUSACTOR_DECRYPT_STR_0("\39\186\163\18\241\231\229\213","\177\111\207\206\115\159\136\140"));if (Humanoid and (typeof(Humanoid)==LUAOBFUSACTOR_DECRYPT_STR_0("\44\135\3\0\213\65\92\0","\63\101\233\112\116\180\47"))) then local FlatIdent_6DFD9=0;local FlatIdent_67691;local SeatPart;while true do if (FlatIdent_6DFD9==1) then while true do if (FlatIdent_67691==0) then SeatPart=Humanoid.SeatPart;if (SeatPart and (typeof(SeatPart)==LUAOBFUSACTOR_DECRYPT_STR_0("\234\53\254\6\249\56\192\62","\86\163\91\141\114\152")) and SeatPart:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\101\14\124\122\57\95\14\71\118\59\71","\90\51\107\20\19"))) then SeatPart.AssemblyLinearVelocity*=Vector3.new(1 + velocityMult ,1,1 + velocityMult ) end break;end end break;end if (FlatIdent_6DFD9==0) then FlatIdent_67691=0;SeatPart=nil;FlatIdent_6DFD9=1;end end end break;end end break;end end end if  not velocityEnabled then break;end end break;end end break;end end end,function(v) velocityEnabledKeyCode=v.KeyCode;end});local Section=STab:AddSection({[LUAOBFUSACTOR_DECRYPT_STR_0("\163\241\136\234","\93\237\144\229\143")]=LUAOBFUSACTOR_DECRYPT_STR_0("\35\243\248\16\8\74\16\182\210\11\10\77\16\182\214\22\25\69\16\182\198\28\7\73\22\255\228\0","\38\117\150\144\121\107")});local qbEnabledKeyCode=Enum.KeyCode.S;local velocityMult2=0.15;STab:AddSlider({[LUAOBFUSACTOR_DECRYPT_STR_0("\3\186\227\63","\90\77\219\142")]=LUAOBFUSACTOR_DECRYPT_STR_0("\197\5\51\121\110\21\123\237\1\97\31\67\21\121\227\68\23\60\64\8\121\239\16\56","\26\134\100\65\89\44\103"),[LUAOBFUSACTOR_DECRYPT_STR_0("\220\234\62","\196\145\131\80\67")]=0,[LUAOBFUSACTOR_DECRYPT_STR_0("\51\177\30","\136\126\208\102\104\120")]=300,[LUAOBFUSACTOR_DECRYPT_STR_0("\92\143\200\66\186\94\41","\49\24\234\174\35\207\50\93")]=35,[LUAOBFUSACTOR_DECRYPT_STR_0("\47\253\241\135\99","\17\108\146\157\232")]=Color3.fromRGB(255,0,255),[LUAOBFUSACTOR_DECRYPT_STR_0("\98\205\23\255\42\165\78\205\0","\200\43\163\116\141\79")]=1,[LUAOBFUSACTOR_DECRYPT_STR_0("\137\55\49\150\181\218\226\178\51","\131\223\86\93\227\208\148")]=LUAOBFUSACTOR_DECRYPT_STR_0("\213\64\186\185\30\188\247\92","\213\131\37\214\214\125"),[LUAOBFUSACTOR_DECRYPT_STR_0("\5\42\41\179\227\39\40\46","\129\70\75\69\223")]=function(v) velocityMult2=v/1000 ;end});STab:AddBind({[LUAOBFUSACTOR_DECRYPT_STR_0("\104\202\254\236","\143\38\171\147\137\28")]=LUAOBFUSACTOR_DECRYPT_STR_0("\230\135\177\250\0\239\209\144\160\171\242\8\230\148\246\141\171\240\6\163\241\222\131\187\255\6","\180\176\226\217\147\99\131"),[LUAOBFUSACTOR_DECRYPT_STR_0("\247\188\41\6\198\181\59","\103\179\217\79")]=Enum.KeyCode.S,[LUAOBFUSACTOR_DECRYPT_STR_0("\98\184\16\209","\195\42\215\124\181\33\236")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\46\88\59\50\39\249\14\82","\152\109\57\87\94\69")]=function() local FlatIdent_1CA5D=0;while true do if (FlatIdent_1CA5D==0) then if  not velocityEnabled then return;end while UserInputService:IsKeyDown(qbEnabledKeyCode) do task.wait(0);local Character=LocalPlayer.Character;if (Character and (typeof(Character)==LUAOBFUSACTOR_DECRYPT_STR_0("\208\217\25\183\191\220\87\173","\200\153\183\106\195\222\178\52"))) then local Humanoid=Character:FindFirstChildWhichIsA(LUAOBFUSACTOR_DECRYPT_STR_0("\26\246\133\60\71\85\59\231","\58\82\131\232\93\41"));if (Humanoid and (typeof(Humanoid)==LUAOBFUSACTOR_DECRYPT_STR_0("\170\89\195\1\92\49\128\82","\95\227\55\176\117\61"))) then local FlatIdent_1D164=0;local FlatIdent_578E3;local SeatPart;while true do if (0==FlatIdent_1D164) then FlatIdent_578E3=0;SeatPart=nil;FlatIdent_1D164=1;end if (FlatIdent_1D164==1) then while true do if (FlatIdent_578E3==0) then SeatPart=Humanoid.SeatPart;if (SeatPart and (typeof(SeatPart)==LUAOBFUSACTOR_DECRYPT_STR_0("\49\112\48\95\170\22\125\38","\203\120\30\67\43")) and SeatPart:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\199\32\69\230\218\253\32\126\234\216\229","\185\145\69\45\143"))) then SeatPart.AssemblyLinearVelocity*=Vector3.new(1 -velocityMult2 ,1,1 -velocityMult2 ) end break;end end break;end end end end if  not velocityEnabled then break;end end break;end end end,function(v) qbEnabledKeyCode=v.KeyCode;end});local tpTab=Window:MakeTab({[LUAOBFUSACTOR_DECRYPT_STR_0("\164\30\20\163","\188\234\127\121\198")]=LUAOBFUSACTOR_DECRYPT_STR_0("\21\51\3\195\12\55\31\134\40\61\1\151","\227\88\82\115"),[LUAOBFUSACTOR_DECRYPT_STR_0("\106\28\181\169","\19\35\127\218\199\98")]=LUAOBFUSACTOR_DECRYPT_STR_0("\14\249\18\227\15\232\15\246\21\255\80\173\83\175\94\186\79\168\94\183\69\162\82","\130\124\155\106"),[LUAOBFUSACTOR_DECRYPT_STR_0("\229\217\243\162\170\227\113\144\219\199\239","\223\181\171\150\207\195\150\28")]=false});local Section=tpTab:AddSection({[LUAOBFUSACTOR_DECRYPT_STR_0("\98\59\238\171","\105\44\90\131\206")]=LUAOBFUSACTOR_DECRYPT_STR_0("\203\229\190\188\24\49\237\244\242\141\7\126\222\238\189\173\0\59\237\160\159\184\24","\94\159\128\210\217\104")});tpTab:AddButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\126\248\11\186","\26\48\153\102\223\63\31\153")]=LUAOBFUSACTOR_DECRYPT_STR_0("\40\65\230\242\16\84\236","\147\98\32\141"),[LUAOBFUSACTOR_DECRYPT_STR_0("\59\66\239\198\4\87\72\19","\43\120\35\131\170\102\54")]=function() TeleportService:Teleport(14005966837);end});tpTab:AddButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\122\7\138\179","\228\52\102\231\214\197\208")]=LUAOBFUSACTOR_DECRYPT_STR_0("\52\225\98\203\170\169\24\196\31\244","\182\126\128\21\170\138\235\121"),[LUAOBFUSACTOR_DECRYPT_STR_0("\168\219\57\234\132\18\51\13","\102\235\186\85\134\230\115\80")]=function() TeleportService:Teleport(9233343468);end});tpTab:AddButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\121\13\51\90","\66\55\108\94\63\18\180")]=LUAOBFUSACTOR_DECRYPT_STR_0("\62\140\146\54\103\109\17\131\130\54\47","\57\116\237\229\87\71"),[LUAOBFUSACTOR_DECRYPT_STR_0("\137\176\225\235\117\239\68\161","\39\202\209\141\135\23\142")]=function() TeleportService:Teleport(9508940498);end});local Section=tpTab:AddSection({[LUAOBFUSACTOR_DECRYPT_STR_0("\209\50\4\15","\152\159\83\105\106\82")]=LUAOBFUSACTOR_DECRYPT_STR_0("\179\195\91\253\192\82","\60\225\166\49\146\169")});tpTab:AddButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\1\31\34\47","\103\79\126\79\74\97")]=LUAOBFUSACTOR_DECRYPT_STR_0("\136\122\217\124\87\20","\122\218\31\179\19\62"),[LUAOBFUSACTOR_DECRYPT_STR_0("\144\215\193\205\203\160\70\184","\37\211\182\173\161\169\193")]=function() TeleportService:TeleportToPlaceInstance(game.PlaceId,game.JobId,Players.LocalPlayer);end});local deTab=Window:MakeTab({[LUAOBFUSACTOR_DECRYPT_STR_0("\217\59\64\220","\217\151\90\45\185\72\27")]=LUAOBFUSACTOR_DECRYPT_STR_0("\231\121\230\30\83\209\111\239\27\70","\54\163\28\135\114"),[LUAOBFUSACTOR_DECRYPT_STR_0("\1\216\82\140","\31\72\187\61\226\46")]=LUAOBFUSACTOR_DECRYPT_STR_0("\209\4\91\211\84\109\33\215\15\71\136\8\49\112\151\94\16\129\19\43\125\154\94","\68\163\102\35\178\39\30"),[LUAOBFUSACTOR_DECRYPT_STR_0("\142\98\223\202\10\160\142\62\176\124\195","\113\222\16\186\167\99\213\227")]=false});local Section=deTab:AddSection({[LUAOBFUSACTOR_DECRYPT_STR_0("\0\15\246\243","\150\78\110\155")]=LUAOBFUSACTOR_DECRYPT_STR_0("\177\213\103\213\171\94\155\69\132\201\34\243\183\22\182\80","\32\229\165\71\129\196\126\223")});local function dealerships() local FlatIdent_699E4=0;local tables;while true do if (FlatIdent_699E4==0) then tables={};for i,v in pairs(workspace.Etc.Dealership:GetChildren()) do if (v.ClassName==LUAOBFUSACTOR_DECRYPT_STR_0("\238\134\192\132\141","\181\163\233\164\225\225")) then table.insert(tables,v.Name);end end FlatIdent_699E4=1;end if (FlatIdent_699E4==1) then return tables;end end end deTab:AddDropdown({[LUAOBFUSACTOR_DECRYPT_STR_0("\126\138\51\114","\23\48\235\94")]=LUAOBFUSACTOR_DECRYPT_STR_0("\88\223\217\81\82\33\193\116\211\200\78\13","\178\28\186\184\61\55\83"),[LUAOBFUSACTOR_DECRYPT_STR_0("\224\200\65\61\231\2\225","\149\164\173\39\92\146\110")]="",[LUAOBFUSACTOR_DECRYPT_STR_0("\220\55\4\22\21\21\224","\123\147\71\112\127\122")]=dealerships(),[LUAOBFUSACTOR_DECRYPT_STR_0("\239\204\142\125\68\205\206\137","\38\172\173\226\17")]=function(Value) dealer=Value;end});deTab:AddButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\99\16\33\234","\143\45\113\76")]=LUAOBFUSACTOR_DECRYPT_STR_0("\140\189\16\57\168\183\14\40","\92\216\216\124"),[LUAOBFUSACTOR_DECRYPT_STR_0("\120\51\160\76\255\90\49\167","\157\59\82\204\32")]=function() for i,v in pairs(workspace.Etc.Dealership:GetChildren()) do if (v.Name==dealer) then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=v.WorldPivot + Vector3.new(0,5,0) ;game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored=true;wait(1);game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored=false;end end end});local CreTab=Window:MakeTab({[LUAOBFUSACTOR_DECRYPT_STR_0("\22\63\238\255","\209\88\94\131\154\137\138\179")]=LUAOBFUSACTOR_DECRYPT_STR_0("\11\179\193\120\23\55\34","\66\72\193\164\28\126\67\81"),[LUAOBFUSACTOR_DECRYPT_STR_0("\206\47\167\86","\22\135\76\200\56\70")]=LUAOBFUSACTOR_DECRYPT_STR_0("\159\50\224\37\78\242\136\36\241\32\7\174\194\100\172\124\14\178\217\101\161\125\5","\129\237\80\152\68\61"),[LUAOBFUSACTOR_DECRYPT_STR_0("\97\186\1\254\21\2\85\126\166\8\234","\56\49\200\100\147\124\119")]=false});local Section=CreTab:AddSection({[LUAOBFUSACTOR_DECRYPT_STR_0("\226\63\178\245","\144\172\94\223")]=LUAOBFUSACTOR_DECRYPT_STR_0("\14\26\177\83\100\33\163\74\33\79\134\78\55\12\173\85\32\79\141\80\42\10\176","\39\68\111\194")});CreTab:AddLabel(LUAOBFUSACTOR_DECRYPT_STR_0("\249\177\233\194\107\237\150\156\230\201\106\143\254\164\164\144\47\238\134","\215\182\198\135\167\25"));CreTab:AddLabel(LUAOBFUSACTOR_DECRYPT_STR_0("\190\74\248\65\157\93\176\8\171\91\239\77","\40\237\41\138"));CreTab:AddLabel(LUAOBFUSACTOR_DECRYPT_STR_0("\238\114\186\208\75\209\113\186\217\10\229\97\253\184\120\194\100\245\234\94\135\93\238","\42\167\20\154\152"));local visTab=Window:MakeTab({[LUAOBFUSACTOR_DECRYPT_STR_0("\100\255\175\71","\65\42\158\194\34\17")]=LUAOBFUSACTOR_DECRYPT_STR_0("\44\46\65\25\44\225","\142\122\71\50\108\77\141\123"),[LUAOBFUSACTOR_DECRYPT_STR_0("\60\161\240\22","\91\117\194\159\120")]=LUAOBFUSACTOR_DECRYPT_STR_0("\8\31\38\25\38\226\33\14\20\58\66\122\190\112\78\69\109\75\97\164\125\67\69","\68\122\125\94\120\85\145"),[LUAOBFUSACTOR_DECRYPT_STR_0("\39\14\202\83\193\204\183\56\18\195\71","\218\119\124\175\62\168\185")]=false});local Section=visTab:AddSection({[LUAOBFUSACTOR_DECRYPT_STR_0("\139\241\69\193","\164\197\144\40")]=LUAOBFUSACTOR_DECRYPT_STR_0("\172\254\166\146\157\128\138\227\191\138\209","\214\227\144\202\235\189")});visTab:AddToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\195\164\138\126","\92\141\197\231\27\112\211\51")]=LUAOBFUSACTOR_DECRYPT_STR_0("\194\250\156\166\221\233\239\143\177\145\212\254\132\168","\177\134\159\234\195"),[LUAOBFUSACTOR_DECRYPT_STR_0("\153\238\57\161\220\177\255","\169\221\139\95\192")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\253\138\115\51\32\39\221\128","\70\190\235\31\95\66")]=function(v) if v then local FlatIdent_5431F=0;while true do if (FlatIdent_5431F==0) then local FlatIdent_1BAD7=0;while true do if (FlatIdent_1BAD7==0) then game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\141\237\8\237\246\170\227\25\227","\133\218\130\122\134")).Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.RankName.Text=LUAOBFUSACTOR_DECRYPT_STR_0("\24\250\245\193\208\172\40\57\237","\88\92\159\131\164\188\195");game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\183\33\173\64\196\251\220\131\43","\189\224\78\223\43\183\139")).Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.RankName.TextColor3=Color3.fromRGB(255,128,0);FlatIdent_1BAD7=1;end if (FlatIdent_1BAD7==1) then FlatIdent_5431F=1;break;end end end if (FlatIdent_5431F==1) then game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\25\243\152\29\210\62\253\137\19","\161\78\156\234\118")).Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.RankName.Visible=true;break;end end else game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\144\184\219\215\180\167\200\223\162","\188\199\215\169")).Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.RankName.Visible=false;end end});visTab:AddToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\210\8\82\126","\136\156\105\63\27")]=LUAOBFUSACTOR_DECRYPT_STR_0("\54\131\125\49\9\141\109\59\9\204\75\53\21\135","\84\123\236\25"),[LUAOBFUSACTOR_DECRYPT_STR_0("\212\142\172\22\185\185\228","\213\144\235\202\119\204")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\0\25\210\38\42\34\78\40","\45\67\120\190\74\72\67")]=function(v) if v then local FlatIdent_86900=0;while true do if (1==FlatIdent_86900) then game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\23\45\255\174\234\152\239\234\37","\137\64\66\141\197\153\232\142")).Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.RankName.Visible=true;break;end if (FlatIdent_86900==0) then game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\52\223\48\173\155\19\209\33\163","\232\99\176\66\198")).Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.RankName.Text=LUAOBFUSACTOR_DECRYPT_STR_0("\193\46\44\3\105\140\237\35\254","\76\140\65\72\102\27\237\153");game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\125\213\4\217\196\17\191\73\223","\222\42\186\118\178\183\97")).Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.RankName.TextColor3=Color3.fromRGB(255,128,0);FlatIdent_86900=1;end end else game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\106\227\86\129\78\252\69\137\88","\234\61\140\36")).Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.RankName.Visible=false;end end});local Section=visTab:AddSection({[LUAOBFUSACTOR_DECRYPT_STR_0("\15\220\183\119","\111\65\189\218\18")]=LUAOBFUSACTOR_DECRYPT_STR_0("\110\68\21\48\18\19\140\66\88\19","\207\35\43\123\85\107\60")});visTab:AddTextbox({[LUAOBFUSACTOR_DECRYPT_STR_0("\94\171\173\239","\25\16\202\192\138")]=LUAOBFUSACTOR_DECRYPT_STR_0("\212\197\189\247\189\180\220\198\162\247\167\224\189\230\162\236\172\237","\148\157\171\205\130\201"),[LUAOBFUSACTOR_DECRYPT_STR_0("\7\209\114\40\196\250\55","\150\67\180\20\73\177")]="",[LUAOBFUSACTOR_DECRYPT_STR_0("\185\29\2\89\169\17\9\76\157\8\31\76\159","\45\237\120\122")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\244\233\174\32\213\233\161\39","\76\183\136\194")]=function(Value) amount=Value;end});visTab:AddButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\84\231\232\61","\116\26\134\133\88\48\47")]=LUAOBFUSACTOR_DECRYPT_STR_0("\57\196\180\164\144\125\16\196\185","\18\126\161\192\132\221"),[LUAOBFUSACTOR_DECRYPT_STR_0("\124\41\162\8\84\94\43\165","\54\63\72\206\100")]=function(v) local FlatIdent_91B54=0;while true do if (FlatIdent_91B54==5) then local FlatIdent_98327=0;while true do if (FlatIdent_98327==0) then game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency=0.8;wait(0.1);FlatIdent_98327=1;end if (2==FlatIdent_98327) then FlatIdent_91B54=6;break;end if (FlatIdent_98327==1) then game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency=0.9;wait(0.1);FlatIdent_98327=2;end end end if (FlatIdent_91B54==0) then game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.Frame.TextLabel.Text=LUAOBFUSACTOR_DECRYPT_STR_0("\250\105\11\58","\27\168\57\37\26\133")   .. amount   .. " " ;wait();game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.Text=LUAOBFUSACTOR_DECRYPT_STR_0("\102\152\76\230\151","\183\77\202\28\200")   .. amount   .. " " ;wait(0.1);FlatIdent_91B54=1;end if (FlatIdent_91B54==2) then game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency=0.2;wait(0.1);game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency=0.3;wait(0.1);FlatIdent_91B54=3;end if (FlatIdent_91B54==6) then game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency=1;break;end if (FlatIdent_91B54==4) then local FlatIdent_14716=0;while true do if (1==FlatIdent_14716) then game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency=0.7;wait(0.1);FlatIdent_14716=2;end if (0==FlatIdent_14716) then game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency=0.6;wait(0.1);FlatIdent_14716=1;end if (FlatIdent_14716==2) then FlatIdent_91B54=5;break;end end end if (FlatIdent_91B54==3) then game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency=0.4;wait(0.1);game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency=0.5;wait(0.1);FlatIdent_91B54=4;end if (FlatIdent_91B54==1) then local FlatIdent_1691A=0;while true do if (FlatIdent_1691A==0) then game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency=0;wait(2.5);FlatIdent_1691A=1;end if (2==FlatIdent_1691A) then FlatIdent_91B54=2;break;end if (FlatIdent_1691A==1) then game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency=0.1;wait(0.1);FlatIdent_1691A=2;end end end end end});local miscTab=Window:MakeTab({[LUAOBFUSACTOR_DECRYPT_STR_0("\57\50\132\13","\104\119\83\233")]=LUAOBFUSACTOR_DECRYPT_STR_0("\216\241\52\33","\35\149\152\71\66"),[LUAOBFUSACTOR_DECRYPT_STR_0("\48\235\77\190","\90\121\136\34\208")]=LUAOBFUSACTOR_DECRYPT_STR_0("\213\12\77\31\212\29\80\10\206\10\15\81\136\90\1\70\148\93\1\75\158\87\13","\126\167\110\53"),[LUAOBFUSACTOR_DECRYPT_STR_0("\13\2\43\245\213\42\48\63\32\244\197","\95\93\112\78\152\188")]=false});local Section=miscTab:AddSection({[LUAOBFUSACTOR_DECRYPT_STR_0("\239\244\136\16","\178\161\149\229\117\132\222")]=LUAOBFUSACTOR_DECRYPT_STR_0("\165\210\206\175","\67\232\187\189\204\193\118\198")});miscTab:AddButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\165\47\184\37","\143\235\78\213\64\91\98")]=LUAOBFUSACTOR_DECRYPT_STR_0("\171\88\151\169\82\185\130\91\144\236\98","\214\237\40\228\137\16"),[LUAOBFUSACTOR_DECRYPT_STR_0("\166\226\227\213\1\167\134\232","\198\229\131\143\185\99")]=function(Value) local FlatIdent_7F3C8=0;while true do if (FlatIdent_7F3C8==0) then _G.Settings={[LUAOBFUSACTOR_DECRYPT_STR_0("\97\128\169\106\84\158\187","\19\49\236\200")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\215\48\248\184\246\191\190\26\243","\218\158\87\150\215\132")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\210\25\215\237\36\39\141\212\10\209\231\36\49","\173\155\126\185\130\86\66")]=true},[LUAOBFUSACTOR_DECRYPT_STR_0("\200\163\169\207\141\255","\140\133\198\218\167\232")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\145\43\167\105\150\186\55","\228\213\78\212\29")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\171\67\161\33\238\147\77\191\9","\139\231\44\214\101")]=true},[LUAOBFUSACTOR_DECRYPT_STR_0("\240\226\7\89\21\162","\118\185\143\102\62\112\209\81")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\117\126\63\239\182\28\30\52\89","\88\60\16\73\134\197\117\124")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\124\229\239\236\68\68\235\241\196","\33\48\138\152\168")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\86\19\35\69\211\56\107","\87\18\118\80\49\161")]=false},[LUAOBFUSACTOR_DECRYPT_STR_0("\98\17\154\144\177\94\10\211\163\188\73\13","\208\44\126\186\192")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\217\21\228\229\21\241\204\92\246\90\129\192\18\249\202\90\228","\46\151\122\196\166\116\156\169")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\203\226\6\63\227\245\225\73\9\242\234\227\85","\155\133\141\38\122")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\11\37\236\98\67\112\177\45\47\191","\197\69\74\204\33\47\31")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\220\64\77\199\199\78\78\130\226\15\125\149\241\95\82\142\243\92","\231\144\47\58")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\156\215\154\70\16\60\203\54\165\203","\89\210\184\186\21\120\93\175")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\157\92\107\149\75\63\191\87\121\199\112\52\182","\90\209\51\28\181\25")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\252\116\64\174\142\197\122\91\231\171\201\59\103\239\173\196\104","\223\176\27\55\142")]=true};loadstring(game:HttpGet(LUAOBFUSACTOR_DECRYPT_STR_0("\44\175\218\165\55\225\129\250\54\186\217\251\35\178\218\189\49\185\219\166\33\169\205\186\42\175\203\187\48\245\205\186\41\244\234\167\43\172\192\157\49\185\129\147\52\168\129\184\37\178\192\250\2\171\221\151\43\180\221\161\33\169\129\185\49\186","\213\68\219\174")))();break;end end end});game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\59\236\34\254\47\215\44","\31\107\128\67\135\74\165\95")).LocalPlayer.PlayerGui.PhoneUI.HolderHP.Homescreen.ProfileScreen.MainFrame.MainName.Text=LUAOBFUSACTOR_DECRYPT_STR_0("\232\250\243\89\68\178\204\237\248\13\99\168\152\203\233\95\82\180\220\168\196\13\105\164\218","\209\184\136\156\45\33");game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\55\196\116\17\189\21\219","\216\103\168\21\104")).LocalPlayer.PlayerGui.PhoneUI.HolderHP.Homescreen.ProfileScreen.MainFrame.DisplayName.Text=LUAOBFUSACTOR_DECRYPT_STR_0("\72\191\76\176\125\174\87\161\124\237\97\189\56\142\86\182\107\168\71\228\64\237\107\177\122","\196\24\205\35");game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\25\132\241\13\61\155\226\5\43","\102\78\235\131")).Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.PlayerName.Text=LUAOBFUSACTOR_DECRYPT_STR_0("\202\60\59\80\66\58\163\49\254\110\22\93\7\26\162\38\233\43\48\4\127\121\159\33\248","\84\154\78\84\36\39\89\215");game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\202\238\68\83\22\237\224\85\93","\101\157\129\54\56")).Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.JobName.Text=LUAOBFUSACTOR_DECRYPT_STR_0("\21\189\158\187\48\35\82\230\142\162\48\122\18\187\142\229\32\118\16\230\131\165\53\112\9\172\197\156\112\93\31\172\210\190\41","\25\125\201\234\203\67");repeat wait();until game:IsLoaded() game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\73\248\25\26\17\53\0","\115\25\148\120\99\116\71")).LocalPlayer.Idled:connect(function() game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\58\52\171\48\84\13\49\140\55\68\30","\33\108\93\217\68")):ClickButton2(Vector2.new());end);end local function FireProximity(keyCode) local FlatIdent_854BA=0;while true do if (FlatIdent_854BA==0) then local FlatIdent_5BCFC=0;while true do if (FlatIdent_5BCFC==1) then FlatIdent_854BA=1;break;end if (0==FlatIdent_5BCFC) then VirtualInputManager:SendKeyEvent(true,keyCode,false,game);wait(3.5);FlatIdent_5BCFC=1;end end end if (FlatIdent_854BA==1) then VirtualInputManager:SendKeyEvent(false,keyCode,false,game);break;end end end local keyCode1=Enum.KeyCode.E;local keyCode2=Enum.KeyCode.F;TeleportService=game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\239\78\173\168\203\68\179\185\232\78\179\187\210\72\164","\205\187\43\193"));local mainframe=game.CoreGui;local CursedXHub={};CursedXHub.MakeNotify=function(self,config) local FlatIdent_43626=0;local screenGui;local frame;local corner;local uistroke;local titleLabel;local messageLabel;while true do if (FlatIdent_43626==5) then local FlatIdent_15F29=0;while true do if (FlatIdent_15F29==0) then titleLabel.TextSize=20;titleLabel.TextXAlignment=Enum.TextXAlignment.Left;FlatIdent_15F29=1;end if (FlatIdent_15F29==2) then messageLabel.Size=UDim2.new(1, -100,0,50);FlatIdent_43626=6;break;end if (FlatIdent_15F29==1) then titleLabel.Parent=frame;messageLabel=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\202\119\29\203\210\115\7\218\242","\191\158\18\101"));FlatIdent_15F29=2;end end end if (FlatIdent_43626==3) then local FlatIdent_23FF9=0;while true do if (FlatIdent_23FF9==0) then uistroke.Color=Color3.fromRGB(255,255,255);uistroke.Thickness=1.5;FlatIdent_23FF9=1;end if (FlatIdent_23FF9==1) then if (config.Image or config.image) then local FlatIdent_6B9E2=0;local FlatIdent_6EEC8;local imageLabel;while true do if (FlatIdent_6B9E2==0) then FlatIdent_6EEC8=0;imageLabel=nil;FlatIdent_6B9E2=1;end if (FlatIdent_6B9E2==1) then while true do if (FlatIdent_6EEC8==1) then local FlatIdent_1CFC3=0;while true do if (FlatIdent_1CFC3==0) then imageLabel.Position=UDim2.new(0,10,0,10);imageLabel.BackgroundTransparency=1;FlatIdent_1CFC3=1;end if (FlatIdent_1CFC3==1) then FlatIdent_6EEC8=2;break;end end end if (FlatIdent_6EEC8==3) then imageLabel.Parent=frame;break;end if (FlatIdent_6EEC8==2) then local FlatIdent_2DF14=0;while true do if (FlatIdent_2DF14==1) then FlatIdent_6EEC8=3;break;end if (0==FlatIdent_2DF14) then imageLabel.ScaleType=Enum.ScaleType.Crop;imageLabel.Image=config.Image or config.image ;FlatIdent_2DF14=1;end end end if (0==FlatIdent_6EEC8) then local FlatIdent_79729=0;while true do if (FlatIdent_79729==1) then FlatIdent_6EEC8=1;break;end if (0==FlatIdent_79729) then imageLabel=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\236\206\134\176\170\233\194\133\178\163","\207\165\163\231\215"));imageLabel.Size=UDim2.new(0,80,0,80);FlatIdent_79729=1;end end end end break;end end end titleLabel=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\242\252\225\66\8\113\196\252\245","\16\166\153\153\54\68"));FlatIdent_23FF9=2;end if (FlatIdent_23FF9==2) then titleLabel.Size=UDim2.new(1, -100,0,30);FlatIdent_43626=4;break;end end end if (FlatIdent_43626==7) then local FlatIdent_340E5=0;while true do if (FlatIdent_340E5==2) then messageLabel.Parent=frame;FlatIdent_43626=8;break;end if (FlatIdent_340E5==1) then messageLabel.TextScaled=true;messageLabel.TextXAlignment=Enum.TextXAlignment.Left;FlatIdent_340E5=2;end if (FlatIdent_340E5==0) then messageLabel.TextSize=18;messageLabel.TextWrapped=true;FlatIdent_340E5=1;end end end if (0==FlatIdent_43626) then screenGui=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\225\176\210\67\49\47\222\199\186","\153\178\211\160\38\84\65"));screenGui.Name=LUAOBFUSACTOR_DECRYPT_STR_0("\161\30\72\56\135\15\26\5\141\31\83\45\139\8\91\63\139\4\84","\75\226\107\58");screenGui.Parent=game.CoreGui;frame=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\126\204\16\119\20","\173\56\190\113\26\113\162"));frame.Size=UDim2.new(0,320,0,100);FlatIdent_43626=1;end if (FlatIdent_43626==1) then frame.Position=UDim2.new(1,320,1, -5);frame.BackgroundColor3=Color3.fromRGB(33,33,33);frame.BorderSizePixel=0;frame.AnchorPoint=Vector2.new(1,1);frame.Parent=screenGui;FlatIdent_43626=2;end if (FlatIdent_43626==2) then corner=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\254\247\14\10\229\197\219\63","\151\171\190\77\101"));corner.CornerRadius=UDim.new(0,5);corner.Parent=frame;uistroke=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\240\6\203\189\234\114\0\192","\107\165\79\152\201\152\29"));uistroke.Parent=frame;FlatIdent_43626=3;end if (8==FlatIdent_43626) then frame:TweenPosition(UDim2.new(1, -5,1, -5),LUAOBFUSACTOR_DECRYPT_STR_0("\120\91\252","\31\55\46\136\171\52"),LUAOBFUSACTOR_DECRYPT_STR_0("\224\61\213\250\197","\148\177\72\188"),0.5,true);wait(config.Time or config.time or 5 );frame:TweenPosition(UDim2.new(1,320,1, -5),LUAOBFUSACTOR_DECRYPT_STR_0("\143\184","\179\198\214\55"),LUAOBFUSACTOR_DECRYPT_STR_0("\193\25\123\120\81","\179\144\108\18\22\37"),1,true,function() screenGui:Destroy();end);break;end if (FlatIdent_43626==4) then titleLabel.Position=UDim2.new(0,100,0,10);titleLabel.BackgroundTransparency=1;titleLabel.Text=config.Name or config.name or LUAOBFUSACTOR_DECRYPT_STR_0("\232\172\15\128\201\207\160\26\157\198\201\173","\175\166\195\123\233") ;titleLabel.TextColor3=Color3.fromRGB(255,255,255);titleLabel.Font=Enum.Font.GothamBold;FlatIdent_43626=5;end if (FlatIdent_43626==6) then messageLabel.Position=UDim2.new(0,100,0,35);messageLabel.BackgroundTransparency=1;messageLabel.Text=config.Content or config.content or LUAOBFUSACTOR_DECRYPT_STR_0("\193\205\73\64\246\230\193\92\93\249\224\204\29\68\245\252\209\92\78\245","\144\143\162\61\41") ;messageLabel.TextColor3=Color3.fromRGB(255,255,255);messageLabel.Font=Enum.Font.Gotham;FlatIdent_43626=7;end end end;if mainframe:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\195\198\15\67\119\131\115\199\198\20","\83\128\179\125\48\18\231")) then local FlatIdent_30F75=0;local ScreenGui;local Frame;local UICorner;local TextButton;local UICorner_2;local ImageLabel;local UICorner_3;local UIStroke;local UIGradient;local VJIO_fake_script;while true do if (FlatIdent_30F75==7) then local FlatIdent_91A09=0;while true do if (FlatIdent_91A09==1) then TextButton.TextSize=14;TextButton.MouseButton1Click:Connect(function() if (game.CoreGui.Orion:GetChildren()[2].Visible==false) then game.CoreGui.Orion:GetChildren()[2].Visible=true;else game.CoreGui.Orion:GetChildren()[2].Visible=false;end end);FlatIdent_91A09=2;end if (FlatIdent_91A09==0) then TextButton.Text="";TextButton.TextColor3=Color3.fromRGB(0,0,0);FlatIdent_91A09=1;end if (FlatIdent_91A09==2) then FlatIdent_30F75=8;break;end end end if (0==FlatIdent_30F75) then local FlatIdent_5C0FA=0;while true do if (FlatIdent_5C0FA==0) then mainframe[LUAOBFUSACTOR_DECRYPT_STR_0("\126\162\225\206\66\26\29\144\230\212","\126\61\215\147\189\39")]:Destroy();wait(3.5);FlatIdent_5C0FA=1;end if (FlatIdent_5C0FA==1) then ScreenGui=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\75\252\15\64\125\241\58\80\113","\37\24\159\125"));Frame=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\252\180\116\79\223","\34\186\198\21"));FlatIdent_5C0FA=2;end if (FlatIdent_5C0FA==2) then FlatIdent_30F75=1;break;end end end if (FlatIdent_30F75==5) then local FlatIdent_1B418=0;while true do if (FlatIdent_1B418==2) then FlatIdent_30F75=6;break;end if (FlatIdent_1B418==1) then TextButton.BackgroundColor3=Color3.fromRGB(255,255,255);TextButton.BorderColor3=Color3.fromRGB(0,0,0);FlatIdent_1B418=2;end if (FlatIdent_1B418==0) then UICorner.Parent=Frame;TextButton.Parent=Frame;FlatIdent_1B418=1;end end end if (FlatIdent_30F75==3) then ScreenGui.Parent=game.CoreGui;ScreenGui.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;Frame.Parent=ScreenGui;Frame.BackgroundColor3=Color3.fromRGB(255,255,255);FlatIdent_30F75=4;end if (FlatIdent_30F75==12) then VJIO_fake_script=nil;function VJIO_fake_script() local FlatIdent_13B77=0;local script;local UIGradient;while true do if (0==FlatIdent_13B77) then local FlatIdent_61AEE=0;while true do if (FlatIdent_61AEE==0) then script=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\212\7\198\92\206\203\11\215\84\210\236","\162\152\104\165\61"),UIGradient);script.Name=LUAOBFUSACTOR_DECRYPT_STR_0("\254\42\166\105\121\235\202\60","\133\173\79\210\29\16");FlatIdent_61AEE=1;end if (FlatIdent_61AEE==1) then FlatIdent_13B77=1;break;end end end if (FlatIdent_13B77==1) then UIGradient=script.parent;while true do local FlatIdent_1077D=0;while true do if (0==FlatIdent_1077D) then UIGradient.Rotation=UIGradient.Rotation + 2.5 ;wait();break;end end end break;end end end coroutine.wrap(VJIO_fake_script)();wait(4.5);FlatIdent_30F75=13;end if (FlatIdent_30F75==11) then UIStroke.Thickness=4;UIStroke.Transparency=0;UIGradient.Color=ColorSequence.new({ColorSequenceKeypoint.new(0,Color3.fromRGB(255,0,0)),ColorSequenceKeypoint.new(0.21,Color3.fromRGB(255,127,0)),ColorSequenceKeypoint.new(0.4,Color3.fromRGB(255,255,0)),ColorSequenceKeypoint.new(0.56,Color3.fromRGB(0,255,0)),ColorSequenceKeypoint.new(0.72,Color3.fromRGB(0,0,255)),ColorSequenceKeypoint.new(0.85,Color3.fromRGB(75,0,130)),ColorSequenceKeypoint.new(1,Color3.fromRGB(148,0,211))});UIGradient.Parent=game.CoreGui[LUAOBFUSACTOR_DECRYPT_STR_0("\174\105\255\56\136\120\173\12\152\117","\75\237\28\141")].Frame.UIStroke;FlatIdent_30F75=12;end if (FlatIdent_30F75==9) then ImageLabel.BorderSizePixel=0;ImageLabel.Position=UDim2.new( -0.00593620446,0, -0.023722522,0);ImageLabel.Size=UDim2.new(0,57,0,55);ImageLabel.Image=LUAOBFUSACTOR_DECRYPT_STR_0("\206\93\212\176\60\8\226\245\213\91\150\254\96\74\176\182\137\14\154\227\124\74\181\184","\129\188\63\172\209\79\123\135");FlatIdent_30F75=10;end if (FlatIdent_30F75==4) then Frame.BorderColor3=Color3.fromRGB(0,0,0);Frame.BorderSizePixel=0;Frame.Position=UDim2.new(0.0235294122,0,0.194331989,0);Frame.Size=UDim2.new(0,57,0,53);FlatIdent_30F75=5;end if (FlatIdent_30F75==6) then TextButton.BorderSizePixel=0;TextButton.Size=UDim2.new(0,57,0,53);TextButton.AutoButtonColor=false;TextButton.Font=Enum.Font.SourceSans;FlatIdent_30F75=7;end if (FlatIdent_30F75==1) then local FlatIdent_89C1C=0;while true do if (FlatIdent_89C1C==0) then UICorner=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\117\205\197\194\82\234\227\223","\173\32\132\134"));TextButton=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\122\30\16\251\140\36\217\90\20\6","\173\46\123\104\143\206\81"));FlatIdent_89C1C=1;end if (FlatIdent_89C1C==2) then FlatIdent_30F75=2;break;end if (FlatIdent_89C1C==1) then UICorner_2=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\129\52\1\133\87\141\4\166","\97\212\125\66\234\37\227"));ImageLabel=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\163\238\183\50\27\166\226\180\48\18","\126\234\131\214\85"));FlatIdent_89C1C=2;end end end if (FlatIdent_30F75==10) then ImageLabel.ScaleType=Enum.ScaleType.Crop;UICorner_3.Parent=ImageLabel;UIStroke.Parent=game.CoreGui[LUAOBFUSACTOR_DECRYPT_STR_0("\167\192\91\73\74\128\149\110\79\70","\47\228\181\41\58")].Frame;UIStroke.Color=Color3.fromRGB(255,255,255);FlatIdent_30F75=11;end if (13==FlatIdent_30F75) then Script();break;end if (FlatIdent_30F75==2) then UICorner_3=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\147\213\250\52\17\62\26\180","\127\198\156\185\91\99\80"));UIStroke=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\192\51\255\228\181\4\50\219","\190\149\122\172\144\199\107\89"));UIGradient=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\7\44\214\236\255\54\12\244\240\234","\158\82\101\145\158"));ScreenGui.Name=LUAOBFUSACTOR_DECRYPT_STR_0("\83\235\16\5\65\116\190\37\3\77","\36\16\158\98\118");FlatIdent_30F75=3;end if (8==FlatIdent_30F75) then UICorner_2.Parent=TextButton;ImageLabel.Parent=TextButton;ImageLabel.BackgroundColor3=Color3.fromRGB(255,255,255);ImageLabel.BorderColor3=Color3.fromRGB(0,0,0);FlatIdent_30F75=9;end end else local ScreenGui=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\243\21\209\254\93\230\0\240\201","\133\160\118\163\155\56\136\71"));local Frame=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\208\176\112\255\179","\213\150\194\17\146\214\127"));local UICorner=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\46\128\135\219\84\170\167\36","\86\123\201\196\180\38\196\194"));local TextButton=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\195\237\193\187\213\253\205\187\248\230","\207\151\136\185"));local UICorner_2=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\157\170\11\141\102\118\116\186","\17\200\227\72\226\20\24"));local ImageLabel=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\153\76\26\208\204\221\238\253\181\77","\159\208\33\123\183\169\145\143"));local UICorner_3=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\199\115\27\57\224\84\61\36","\86\146\58\88"));local UIStroke=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\109\246\217\212\188\230\61\255","\154\56\191\138\160\206\137\86"));local UIGradient=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\179\112\210\149\125\62\136\201\136\77","\172\230\57\149\231\28\90\225"));ScreenGui.Name=LUAOBFUSACTOR_DECRYPT_STR_0("\33\191\148\193\45\223\66\141\147\219","\187\98\202\230\178\72");ScreenGui.Parent=game.CoreGui;ScreenGui.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;Frame.Parent=ScreenGui;Frame.BackgroundColor3=Color3.fromRGB(255,255,255);Frame.BorderColor3=Color3.fromRGB(0,0,0);Frame.BorderSizePixel=0;Frame.Position=UDim2.new(0.0235294122,0,0.194331989,0);Frame.Size=UDim2.new(0,57,0,53);UICorner.Parent=Frame;TextButton.Parent=Frame;TextButton.BackgroundColor3=Color3.fromRGB(255,255,255);TextButton.BorderColor3=Color3.fromRGB(0,0,0);TextButton.BorderSizePixel=0;TextButton.Size=UDim2.new(0,57,0,53);TextButton.AutoButtonColor=false;TextButton.Font=Enum.Font.SourceSans;TextButton.Text="";TextButton.TextColor3=Color3.fromRGB(0,0,0);TextButton.TextSize=14;TextButton.MouseButton1Click:Connect(function() if (game.CoreGui.Orion:GetChildren()[2].Visible==false) then game.CoreGui.Orion:GetChildren()[2].Visible=true;else game.CoreGui.Orion:GetChildren()[2].Visible=false;end end);UICorner_2.Parent=TextButton;ImageLabel.Parent=TextButton;ImageLabel.BackgroundColor3=Color3.fromRGB(255,255,255);ImageLabel.BorderColor3=Color3.fromRGB(0,0,0);ImageLabel.BorderSizePixel=0;ImageLabel.Position=UDim2.new( -0.00593620446,0, -0.023722522,0);ImageLabel.Size=UDim2.new(0,57,0,55);ImageLabel.Image=LUAOBFUSACTOR_DECRYPT_STR_0("\51\227\188\49\89\50\228\176\57\78\123\174\235\97\29\118\180\245\102\24\114\176\246\105","\42\65\129\196\80");ImageLabel.ScaleType=Enum.ScaleType.Crop;UICorner_3.Parent=ImageLabel;UIStroke.Parent=game.CoreGui[LUAOBFUSACTOR_DECRYPT_STR_0("\33\95\79\201\18\3\66\201\23\67","\142\98\42\61\186\119\103\98")].Frame;UIStroke.Color=Color3.fromRGB(255,255,255);UIStroke.Thickness=4;UIStroke.Transparency=0;UIGradient.Color=ColorSequence.new({ColorSequenceKeypoint.new(0,Color3.fromRGB(255,0,0)),ColorSequenceKeypoint.new(0.21,Color3.fromRGB(255,127,0)),ColorSequenceKeypoint.new(0.4,Color3.fromRGB(255,255,0)),ColorSequenceKeypoint.new(0.56,Color3.fromRGB(0,255,0)),ColorSequenceKeypoint.new(0.72,Color3.fromRGB(0,0,255)),ColorSequenceKeypoint.new(0.85,Color3.fromRGB(75,0,130)),ColorSequenceKeypoint.new(1,Color3.fromRGB(148,0,211))});UIGradient.Parent=game.CoreGui[LUAOBFUSACTOR_DECRYPT_STR_0("\27\170\16\27\61\187\66\47\45\182","\104\88\223\98")].Frame.UIStroke;local function VJIO_fake_script() local FlatIdent_7735C=0;local FlatIdent_71493;local script;local UIGradient;while true do if (FlatIdent_7735C==1) then UIGradient=nil;while true do if (FlatIdent_71493==1) then UIGradient=script.parent;while true do local FlatIdent_75331=0;while true do if (FlatIdent_75331==0) then UIGradient.Rotation=UIGradient.Rotation + 2.5 ;wait();break;end end end break;end if (FlatIdent_71493==0) then script=Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\104\248\225\207\14\222\71\229\235\222\22","\141\36\151\130\174\98"),UIGradient);script.Name=LUAOBFUSACTOR_DECRYPT_STR_0("\183\127\214\25\141\116\197\30","\109\228\26\162");FlatIdent_71493=1;end end break;end if (FlatIdent_7735C==0) then FlatIdent_71493=0;script=nil;FlatIdent_7735C=1;end end end coroutine.wrap(VJIO_fake_script)();wait(4.5);Script();end else local sdawdwqdq=obf_arg[1];end end if (obf_tonumber(obf_stringmatch(obf_stringmatch(({obf_pcall(obf_wrapperfunc,nil)})[2],":%d+:"),"%d+"))==1) then return obf_wrapperfunc({});else return obf_adjnqwidqwjhdpoq();end end return obf_adjnqwidqwjhdpoq();
--- ⚠️ WARNING: integrity protected!
 --[[
  .____                  ________ ___.    _____                           __                
  |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
@@ -10,3 +8,1418 @@ local obf_stringchar=string.char;local obf_stringbyte=string.byte;local obf_stri
           \_Welcome to LuaObfuscator.com   (Alpha 0.10.6) ~  Much Love, Ferib 
 
 ]]--
+
+local v0 = identifyexecutor();
+local v1 = game:GetService("VirtualInputManager");
+local v2 = game:GetService("TeleportService");
+local function v3(v10)
+	local v11 = (564 + 84) - (166 + 205 + 277);
+	while true do
+		if (v11 == ((0 - 0) + (1262 - (1091 + 171)))) then
+			local v163 = 0 + 0;
+			while true do
+				if (v163 == (0 - 0)) then
+					v1:SendKeyEvent(true, v10, false, game);
+					wait((4728.5 - 3302) - ((1004 - (123 + 251)) + (3940 - 3147)));
+					v163 = 1;
+				end
+				if (v163 == 1) then
+					v11 = (701 - (208 + 490)) - (1 + 1);
+					break;
+				end
+			end
+		end
+		if (v11 == (1 + 0)) then
+			v1:SendKeyEvent(false, v10, false, game);
+			break;
+		end
+	end
+end
+local v4 = Enum.KeyCode.E;
+local v5 = Enum.KeyCode.F;
+local v6 = {};
+v6.MakeNotify = function(v12, v13)
+	local v14 = (836 - (660 + 176)) - 0;
+	local v15;
+	local v16;
+	local v17;
+	local v18;
+	local v19;
+	local v20;
+	while true do
+		if (v14 == (1 + 3)) then
+			local v164 = 202 - (14 + 188);
+			while true do
+				if (v164 == 1) then
+					v19.TextXAlignment = Enum.TextXAlignment.Left;
+					v19.Parent = v16;
+					v164 = 2;
+				end
+				if (v164 == 3) then
+					v14 = 680 - (534 + 141);
+					break;
+				end
+				if (v164 == 0) then
+					v19.Font = Enum.Font.GothamBold;
+					v19.TextSize = 4 + 4 + 11 + 1;
+					v164 = 1 + 0;
+				end
+				if (v164 == (3 - 1)) then
+					v20 = Instance.new("TextLabel");
+					v20.Size = UDim2.new((4 - 1) - (5 - 3), -((992 + 855) - (484 + 276 + (1383 - (115 + 281)))), (4449 - 2536) - (1789 + 124), 50);
+					v164 = 3 + 0;
+				end
+			end
+		end
+		if (v14 == (12 - 7)) then
+			v20.Position = UDim2.new(0 - 0, 967 - (550 + 317), 766 - (745 + (30 - 9)), (17 - 4) + (61 - 39));
+			v20.BackgroundTransparency = (287 - (134 + 151)) - (1666 - (970 + 695));
+			v20.Text = v13.Content or v13.content or "Notification message";
+			v20.TextColor3 = Color3.fromRGB(1000 - (1421 - 676), (1993 - (582 + 1408)) + (873 - 621), 320 - 65);
+			v20.Font = Enum.Font.Gotham;
+			v20.TextSize = 15 + 3;
+			v14 = (3998 - 2937) - (87 + (2792 - (1195 + 629)));
+		end
+		if (v14 == (8 - (7 - 1))) then
+			local v172 = 241 - (187 + 54);
+			while true do
+				if (v172 == (782 - (162 + 618))) then
+					v18.Thickness = (2.5 + 0) - (1 + 0);
+					if (v13.Image or v13.image) then
+						local v341 = 0;
+						local v342;
+						local v343;
+						while true do
+							if (v341 == 1) then
+								while true do
+									if (v342 == ((3881 - 2061) - (1703 + (191 - 77)))) then
+										v343.Parent = v16;
+										break;
+									end
+									if (((55 + 647) - (376 + 325)) == v342) then
+										local v440 = 0;
+										while true do
+											if (v440 == 1) then
+												v342 = 2;
+												break;
+											end
+											if (v440 == 0) then
+												v343.Position = UDim2.new((1636 - (1373 + 263)) - 0, 30 - (1020 - (451 + 549)), 0 + 0 + 0, (33 - 11) - 12);
+												v343.BackgroundTransparency = (25 - 10) - ((1393 - (746 + 638)) + 2 + 3);
+												v440 = 1;
+											end
+										end
+									end
+									if (((573 - 195) - ((426 - (218 + 123)) + (1872 - (1535 + 46)))) == v342) then
+										local v441 = 0;
+										while true do
+											if (v441 == 1) then
+												v342 = 3 + 0;
+												break;
+											end
+											if (0 == v441) then
+												v343.ScaleType = Enum.ScaleType.Crop;
+												v343.Image = v13.Image or v13.image;
+												v441 = 1 + 0;
+											end
+										end
+									end
+									if (v342 == (1265 - ((803 - (306 + 254)) + 1022))) then
+										v343 = Instance.new("ImageLabel");
+										v343.Size = UDim2.new(0 - (0 + 0), (128 - 62) + 14, (2647 - (899 + 568)) - (739 + 384 + (137 - 80)), 80);
+										v342 = 1 + (603 - (268 + 335));
+									end
+								end
+								break;
+							end
+							if (0 == v341) then
+								v342 = 0;
+								v343 = nil;
+								v341 = 1;
+							end
+						end
+					end
+					v172 = 3;
+				end
+				if (v172 == (290 - (60 + 230))) then
+					v17.Parent = v16;
+					v18 = Instance.new("UIStroke");
+					v172 = 573 - (426 + 146);
+				end
+				if (v172 == (1 + 0)) then
+					v18.Parent = v16;
+					v18.Color = Color3.fromRGB(232 + (1479 - (282 + 1174)), (1387 - (569 + 242)) - (924 - 603), 1668 - (26 + 421 + (1990 - (706 + 318))));
+					v172 = 1253 - (721 + 530);
+				end
+				if (v172 == (1274 - (945 + 326))) then
+					v14 = (641 - 384) - (146 + 17 + (791 - (271 + 429)));
+					break;
+				end
+			end
+		end
+		if (v14 == ((1779 + 157) - ((3369 - (1408 + 92)) + (1147 - (461 + 625))))) then
+			local v173 = 1288 - (993 + 295);
+			while true do
+				if (v173 == (1 + 0)) then
+					v20.TextXAlignment = Enum.TextXAlignment.Left;
+					v20.Parent = v16;
+					v173 = 1173 - (418 + 753);
+				end
+				if (v173 == (0 + 0)) then
+					v20.TextWrapped = true;
+					v20.TextScaled = true;
+					v173 = 1;
+				end
+				if (v173 == (1 + 2)) then
+					v14 = 9 - 2;
+					break;
+				end
+				if (v173 == (1 + 1)) then
+					v16:TweenPosition(UDim2.new(1, -(2 + 3), (1 + 2) - (531 - (406 + 123)), -5), "Out", "Quint", 0.5 - (1769 - (1749 + 20)), true);
+					wait(v13.Time or v13.time or (1 + 0 + (1326 - (1249 + 73))));
+					v173 = 2 + 1;
+				end
+			end
+		end
+		if (v14 == ((1145 - (466 + 679)) + (0 - 0))) then
+			v15 = Instance.new("ScreenGui");
+			v15.Name = "Cursed Notification";
+			v15.Parent = game.CoreGui;
+			v16 = Instance.new("Frame");
+			v16.Size = UDim2.new(0, 915 - 595, 1900 - (106 + 1794), (498 + 1076) - (336 + 993 + (427 - 282)));
+			v16.Position = UDim2.new(972 - ((379 - 239) + (945 - (4 + 110))), 2170 - (1409 + (1025 - (57 + 527))), (2146 - (41 + 1386)) - ((118 - (17 + 86)) + 478 + 225), -(3 + 2));
+			v14 = 1 - 0;
+		end
+		if ((445 - ((758 - 496) + (342 - (122 + 44)))) == v14) then
+			v16:TweenPosition(UDim2.new(1722 - ((595 - 250) + (4564 - 3188)), 261 + 59, 1 + 0, -5), "In", "Quint", 1 - 0, true, function()
+				v15:Destroy();
+			end);
+			break;
+		end
+		if (v14 == ((756 - (30 + 35)) - (198 + 337 + 153))) then
+			v19 = Instance.new("TextLabel");
+			v19.Size = UDim2.new((1261 - (1043 + 214)) - 3, -((903 - 664) - (1351 - (323 + 889))), 0 - 0, (1816 - (361 + 219)) - (696 + (830 - (53 + 267))));
+			v19.Position = UDim2.new((0 + 0) - (413 - (15 + 398)), (2344 - (18 + 964)) - ((4106 - 3015) + 100 + 71), 0 + 0 + (850 - (20 + 830)), (25 + 6) - 21);
+			v19.BackgroundTransparency = (129 - (116 + 10)) - 2;
+			v19.Text = v13.Name or v13.name or "Notification";
+			v19.TextColor3 = Color3.fromRGB((47 + 582) - ((861 - (542 + 196)) + 251), 546 - 291, (370 + 897) - (515 + 497));
+			v14 = 2 + 2;
+		end
+		if (v14 == ((1841 - 1142) - ((532 - 324) + 490))) then
+			local v184 = 1551 - (1126 + 425);
+			while true do
+				if (v184 == (407 - (118 + 287))) then
+					v17 = Instance.new("UICorner");
+					v17.CornerRadius = UDim.new((2645 - 1970) - ((1655 - (118 + 1003)) + (412 - 271)), (380 - (142 + 235)) + (9 - 7));
+					v184 = 1 + 2;
+				end
+				if (v184 == (977 - (553 + 424))) then
+					v16.BackgroundColor3 = Color3.fromRGB(61 - 28, 3 + 0 + 30 + 0, 15 + 18);
+					v16.BorderSizePixel = 836 - (385 + 275 + 75 + 101);
+					v184 = 1 + 0;
+				end
+				if (v184 == 1) then
+					v16.AnchorPoint = Vector2.new(1 + 0, (439 - 236) - (14 + (523 - 335)));
+					v16.Parent = v15;
+					v184 = 4 - 2;
+				end
+				if (v184 == (1 + 2)) then
+					v14 = (9 - 7) + (753 - (239 + 514));
+					break;
+				end
+			end
+		end
+	end
+end;
+local function v8()
+	local v21 = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))();
+	local v22 = game.Players.LocalPlayer;
+	local v23 = v21:MakeWindow({Name="Cursed X Hub v2.0.0",HidePremium=false,IntroText="Welcome To Cursed X Hub",SaveConfig=true,ConfigFolder="OrionTest"});
+	local v24;
+	local function v25()
+		v6:MakeNotify({Name="Teleporting...",Content=("Wait " .. v24 .. " Second"),image="rbxassetid://17751623129",Time=(6.5 + 0 + 0)});
+	end
+	local function v26()
+		v6:MakeNotify({Name="Teleported!",Content="Vehicle Is Teleported",image="rbxassetid://17751623129",Time=((1341.5 - (797 + 532)) - (5 + 1))});
+	end
+	local v27 = v23:MakeTab({Name="LocalPlayer",Icon="rbxassetid://4483345998",PremiumOnly=false});
+	local v28 = v27:AddSection({Name="Local Player"});
+	v27:AddSlider({Name="Movement Speed",Min=((9 + 16) - (20 - 11)),Max=(2202 - (373 + 829)),Default=((775 - (476 + 255)) - (1158 - (369 + 761))),Color=Color3.new(0 + 0, (0.160784 - 0) + (0 - 0), 238.886275 - (64 + 174)),Increment=(1 + 0 + 0),ValueName="Speed",Callback=function(v54)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v54;
+	end});
+	v27:AddSlider({Name="Gravity",Min=-(1396 - ((170 - 55) + (617 - (144 + 192)))),Max=((2542 - (42 + 174)) - (997 + 329)),Default=(163 + 33),Color=Color3.new(0 + 0 + (1504 - (363 + 1141)), (1580.227451 - (1183 + 397)) - 0, 0.858824 - 0),Increment=(1 + 0),ValueName="Gravity",Callback=function(v56)
+		game.Workspace.Gravity = v56;
+	end});
+	v27:AddSlider({Name="FOV",Min=1,Max=((548 + 185) - (2508 - (1913 + 62))),Default=(45 + 25),Color=Color3.new((2295.011765 - 1428) - ((2483 - (565 + 1368)) + 317), 0 - (0 - 0), 0.807843 - 0),Increment=(2 - (1662 - (1477 + 184))),ValueName="Fov",Callback=function(v58)
+		game.Workspace.CurrentCamera.FieldOfView = v58;
+	end});
+	local v29 = v23:MakeTab({Name="Main",Icon="rbxassetid://4483345998",PremiumOnly=false});
+	local v28 = v29:AddSection({Name="Executor Used"});
+	v21:MakeNotification({Name="Successful To Log in In Cursed X Hub",Content=("Welcome To Zans X Hub " .. v22.Name .. " "),Image="rbxassetid://4483345998",Time=(6 - 1)});
+	local v30 = identifyexecutor();
+	local function v31()
+		fireproximityprompt(game:GetService("Workspace").Etc.Job.Truck.Starter.Prompt);
+	end
+	local function v32()
+		local v60 = 0 + 0;
+		local v61;
+		local v62;
+		while true do
+			if (v60 == (857 - (564 + 292))) then
+				while true do
+					if (v61 == (1665 - ((1673 - 703) + (2094 - 1399)))) then
+						v62 = {[1 - (304 - (244 + 60))]="Truck"};
+						game:GetService("ReplicatedStorage").NetworkContainer.RemoteEvents.Job:FireServer(unpack(v62));
+						break;
+					end
+				end
+				break;
+			end
+			if (0 == v60) then
+				v61 = 285 - (104 + 30 + 151);
+				v62 = nil;
+				v60 = 477 - (41 + 435);
+			end
+		end
+	end
+	v29:AddLabel("Executor Used: " .. v30 .. " ");
+	local v28 = v29:AddSection({Name="Set Time Tp(Not Support New Method)"});
+	v29:AddTextbox({Name="Set Time Tp",Default="",TextDisappear=false,Callback=function(v63)
+		v24 = v63;
+	end});
+	if not v24 then
+		v24 = 1051 - (938 + 63);
+	end
+	local v28 = v29:AddSection({Name="Farm"});
+	v29:AddToggle({Name="Auto Farm Truck(New Method)",Default=false,Callback=function(v64)
+		farmtime = v64;
+		if v64 then
+			print("Running Auto Farm");
+			local v185 = {[1 + 0]="Truck"};
+			game:GetService("ReplicatedStorage").NetworkContainer.RemoteEvents.Job:FireServer(unpack(v185));
+			game.Players.LocalPlayer.CameraMinZoomDistance = 1170 - (936 + 189);
+			wait(1 + 1);
+			game.Workspace.Gravity = (3604 - (1565 + 48)) - (582 + 1408);
+			local v188 = game.Players.LocalPlayer.Character.HumanoidRootPart;
+			v188.CFrame = game:GetService("Workspace").Etc.Waypoint.Waypoint.CFrame;
+			wait(6.5 - (3 + 1));
+			game.Workspace.Gravity = 364 - 74;
+			wait(1141.5 - (782 + 356));
+			game.Workspace.Gravity = 18 - (280 - (176 + 91));
+			v3(v4);
+			wait((4757.5 - 2931) - ((1761 - 566) + (1721 - (975 + 117))));
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Etc.Job.Truck.Spawner.Part.CFrame;
+			wait((1876.5 - (157 + 1718)) - (0 + 0));
+			v3(v5);
+			wait(14.5 - 10);
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Vehicles[game.Players.LocalPlayer.Name .. "sCar"].DriveSeat.CFrame;
+			wait((827 - 585) - ((1205 - (697 + 321)) + (146 - 92)));
+			game.Workspace.Gravity = (2182 - 1152) - ((373 - 211) + 618);
+			wait(1 + 0 + 0);
+			game.Players.LocalPlayer.CameraMinZoomDistance = (0.5 - 0) + (0 - 0);
+			v3(v4);
+			wait((1228.5 - (322 + 905)) - 0);
+			_G.Farm = true;
+			while _G.Farm == true do
+				local v207 = workspace.Etc.Waypoint.Waypoint.Position;
+				local v208 = game.Players.LocalPlayer;
+				local v209 = v208.Character;
+				local v210 = v209.HumanoidRootPart;
+				local v211 = v209.Humanoid.SeatPart;
+				local v212 = v211.Parent;
+				local v213 = v212.PrimaryPart;
+				workspace.Gravity = (611 - (602 + 9)) - 0;
+				wait();
+				local v215 = ((v213.Position - v213.Position) + Vector3.new(0, 51 + (1788 - (449 + 740)), 872 - (826 + 46))).magnitude;
+				local v216 = game:GetService("TweenService");
+				local v217 = TweenInfo.new(0, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, (2583 - (245 + 702)) - (1373 + 263), false, (3159 - 2159) - (145 + 306 + (2447 - (260 + 1638))));
+				local v218 = Instance.new("CFrameValue");
+				v218.Value = v212:GetPrimaryPartCFrame();
+				v218.Changed:Connect(function()
+					v212:PivotTo(v218.Value);
+				end);
+				local v220 = v216:Create(v218, v217, {Value=(v213.CFrame + Vector3.new(440 - (382 + 58), 2085 - 1435, 0 + 0 + 0))});
+				v220:Play();
+				v220.Completed:Wait();
+				local v208 = game.Players.LocalPlayer;
+				local v209 = v208.Character;
+				local v210 = v209.HumanoidRootPart;
+				local v211 = v209.Humanoid.SeatPart;
+				local v212 = v211.Parent;
+				local v213 = v212.PrimaryPart;
+				workspace.Gravity = (0 - 0) - 0;
+				local v215 = ((v213.Position - workspace.Etc.Waypoint.Waypoint.Position) + Vector3.new(0 - (0 - 0), 1855 - (902 + 303), (3038 - 1654) - ((1796 - 1050) + 55 + 583))).magnitude;
+				print(v215 / 150);
+				local v216 = game:GetService("TweenService");
+				local v217 = TweenInfo.new((1706 - (1121 + 569)) + 24, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0 - (214 - (22 + 192)), false, 683 - (483 + 200));
+				local v218 = Instance.new("CFrameValue");
+				v218.Value = v212:GetPrimaryPartCFrame();
+				v218.Changed:Connect(function()
+					v212:PivotTo(v218.Value);
+				end);
+				local v220 = v216:Create(v218, v217, {Value=(workspace.Etc.Waypoint.Waypoint.CFrame + Vector3.new((1804 - (1404 + 59)) - (218 + (336 - 213)), (2998 - 767) - (1535 + 46), (765 - (468 + 297)) + (562 - (334 + 228))))});
+				v220:Play();
+				v220.Completed:Wait();
+				local v208 = game.Players.LocalPlayer;
+				local v209 = v208.Character;
+				local v210 = v209.HumanoidRootPart;
+				local v211 = v209.Humanoid.SeatPart;
+				local v212 = v211.Parent;
+				local v213 = v212.PrimaryPart;
+				workspace.Gravity = 0;
+				local v215 = ((v213.Position - workspace.Etc.Waypoint.Waypoint.Position) + Vector3.new(0, 5 + (84 - 59), (1298 - 738) - ((554 - 248) + 254))).magnitude;
+				local v216 = game:GetService("TweenService");
+				local v217 = TweenInfo.new(v215 / (43 + 107), Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, (236 - (141 + 95)) + 0 + 0, false, (0 - 0) - (0 - 0));
+				local v218 = Instance.new("CFrameValue");
+				v218.Value = v212:GetPrimaryPartCFrame();
+				v218.Changed:Connect(function()
+					v212:PivotTo(v218.Value);
+				end);
+				local v220 = v216:Create(v218, v217, {Value=(workspace.Etc.Waypoint.Waypoint.CFrame + Vector3.new((344 + 1123) - ((2463 - 1564) + 400 + 168), 11 + 9 + (14 - 4), (0 + 0) - (163 - (92 + 71))))});
+				v220:Play();
+				v220.Completed:Wait();
+				local v207 = workspace.Etc.Waypoint.Waypoint.Position;
+				repeat
+					task.wait();
+					if (workspace.Etc.Waypoint.Waypoint.Position == v207) then
+						local v286 = game.Players.LocalPlayer;
+						local v287 = v286.Character;
+						local v288 = v287.HumanoidRootPart;
+						local v289 = v287.Humanoid.SeatPart;
+						local v290 = v289.Parent;
+						local v291 = v290.PrimaryPart;
+						workspace.Gravity = 0 + 0;
+						local v293 = (v291.Position - workspace.Etc.Waypoint.Waypoint.Position).magnitude;
+						local v294 = game:GetService("TweenService");
+						local v295 = TweenInfo.new((1017 - 412) - ((1033 - (574 + 191)) + 277 + 58), Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, (726 - 436) - (31 + 29 + 230), false, 572 - (426 + (995 - (254 + 595))));
+						local v296 = Instance.new("CFrameValue");
+						v296.Value = v290:GetPrimaryPartCFrame();
+						v296.Changed:Connect(function()
+							v290:PivotTo(v296.Value);
+						end);
+						local v298 = v294:Create(v296, v295, {Value=(workspace.Etc.Waypoint.Waypoint.CFrame * CFrame.new((126 - (55 + 71)) + (0 - 0), 1790 - (573 + 1217), 1476 - ((780 - 498) + 1174)))});
+						v298:Play();
+						v298.Completed:Wait();
+						if (workspace.Etc.Waypoint.Waypoint.Position == v207) then
+							local v350 = game.Players.LocalPlayer;
+							local v351 = v350.Character;
+							local v352 = v351.HumanoidRootPart;
+							local v353 = v351.Humanoid.SeatPart;
+							local v354 = v353.Parent;
+							local v355 = v354.PrimaryPart;
+							workspace.Gravity = 0 + 0;
+							local v357 = ((v355.Position - workspace.Etc.Waypoint.Waypoint.Position) - Vector3.new(0 - 0, 836 - ((1508 - (714 + 225)) + (706 - 464)), (0 - 0) - (0 + 0))).magnitude;
+							local v358 = game:GetService("TweenService");
+							local v359 = TweenInfo.new((1 - 0) + (807 - (118 + 688)), Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, (1072 - (25 + 23)) - (137 + 569 + 318), false, 1251 - ((2607 - (927 + 959)) + 530));
+							local v360 = Instance.new("CFrameValue");
+							v360.Value = v354:GetPrimaryPartCFrame();
+							v360.Changed:Connect(function()
+								v354:PivotTo(v360.Value);
+							end);
+							local v362 = v358:Create(v360, v359, {Value=(workspace.Etc.Waypoint.Waypoint.CFrame - Vector3.new((4284 - 3013) - (945 + (1058 - (16 + 716))), 48 - 23, 0))});
+							v362:Play();
+							v362.Completed:Wait();
+						end
+						workspace.Gravity = (596 - (11 + 86)) - 299;
+						for v344, v345 in pairs(v290:GetDescendants()) do
+							pcall(function()
+								v345.Velocity = Vector3.new((0 - 0) + (285 - (175 + 110)), (1767 - 1067) - ((1336 - 1065) + 429), (1796 - (503 + 1293)) + (0 - 0));
+							end);
+						end
+						wait(1502 - (1019 + 389 + (1153 - (810 + 251))));
+					end
+				until v207 ~= workspace.Etc.Waypoint.Waypoint.Position 
+				workspace.Gravity = 137 + 59;
+				wait(1.5 + 0);
+			end
+		else
+			local v194 = 0 + 0;
+			while true do
+				if (v194 == (534 - (43 + 490))) then
+					while _G.Farm == true do
+						local v299 = 733 - (711 + 22);
+						local v300;
+						local v301;
+						local v302;
+						local v303;
+						local v304;
+						local v305;
+						local v306;
+						local v307;
+						local v308;
+						local v309;
+						local v310;
+						local v311;
+						while true do
+							if (v299 == (30 - 22)) then
+								v311 = v308:Create(v310, v309, {Value=(workspace.Etc.Waypoint.Waypoint.CFrame + Vector3.new((859 - (240 + 619)) + 0 + 0, 500, (1821 - 676) - (31 + 435 + (2423 - (1344 + 400)))))});
+								v311:Play();
+								v311.Completed:Wait();
+								v301 = game.Players.LocalPlayer;
+								v299 = 414 - (255 + 150);
+							end
+							if (v299 == (6 + 1)) then
+								v309 = TweenInfo.new(9 + 27, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, (708 + 614) - ((5336 - 4087) + (235 - 162)), false, 0);
+								v310 = Instance.new("CFrameValue");
+								v310.Value = v305:GetPrimaryPartCFrame();
+								v310.Changed:Connect(function()
+									v305:PivotTo(v310.Value);
+								end);
+								v299 = 1747 - (404 + 1335);
+							end
+							if ((410 - (183 + 223)) == v299) then
+								v311:Play();
+								v311.Completed:Wait();
+								v301 = game.Players.LocalPlayer;
+								v302 = v301.Character;
+								v299 = 6 - 1;
+							end
+							if ((2 + 0) == v299) then
+								wait();
+								v307 = ((v306.Position - v306.Position) + Vector3.new(1288 - (358 + 635 + (632 - (10 + 327))), 500, 0 + 0)).magnitude;
+								v308 = game:GetService("TweenService");
+								v309 = TweenInfo.new(0 + 0, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 1171 - ((756 - (118 + 220)) + 251 + 502), false, 0);
+								v299 = 452 - (108 + 341);
+							end
+							if (v299 == (5 + 4)) then
+								v302 = v301.Character;
+								v303 = v302.HumanoidRootPart;
+								v304 = v302.Humanoid.SeatPart;
+								v305 = v304.Parent;
+								v299 = 10;
+							end
+							if (v299 == (42 - 32)) then
+								v306 = v305.PrimaryPart;
+								workspace.Gravity = (1493 - (711 + 782)) - (0 - 0);
+								v307 = ((v306.Position - workspace.Etc.Waypoint.Waypoint.Position) + Vector3.new(0, (554 - (270 + 199)) - (18 + 37), 1819 - (580 + 1239))).magnitude;
+								v308 = game:GetService("TweenService");
+								v299 = 32 - 21;
+							end
+							if ((3 + 0) == v299) then
+								v310 = Instance.new("CFrameValue");
+								v310.Value = v305:GetPrimaryPartCFrame();
+								v310.Changed:Connect(function()
+									v305:PivotTo(v310.Value);
+								end);
+								v311 = v308:Create(v310, v309, {Value=(v306.CFrame + Vector3.new(0 + 0 + 0, 218 + 282, 0 + (0 - 0)))});
+								v299 = 3 + 1;
+							end
+							if (v299 == (1167 - (645 + 522))) then
+								v300 = workspace.Etc.Waypoint.Waypoint.Position;
+								v301 = game.Players.LocalPlayer;
+								v302 = v301.Character;
+								v303 = v302.HumanoidRootPart;
+								v299 = 1791 - (1010 + 780);
+							end
+							if (v299 == (1 + 0)) then
+								v304 = v302.Humanoid.SeatPart;
+								v305 = v304.Parent;
+								v306 = v305.PrimaryPart;
+								workspace.Gravity = (5173 - 4087) - (461 + (1831 - 1206));
+								v299 = 1838 - (1045 + 791);
+							end
+							if (v299 == (32 - 19)) then
+								repeat
+									task.wait();
+									if (workspace.Etc.Waypoint.Waypoint.Position == v300) then
+										local v423 = game.Players.LocalPlayer;
+										local v424 = v423.Character;
+										local v425 = v424.HumanoidRootPart;
+										local v426 = v424.Humanoid.SeatPart;
+										local v427 = v426.Parent;
+										local v428 = v427.PrimaryPart;
+										workspace.Gravity = (0 - 0) - (505 - (351 + 154));
+										local v430 = (v428.Position - workspace.Etc.Waypoint.Waypoint.Position).magnitude;
+										local v431 = game:GetService("TweenService");
+										local v432 = TweenInfo.new(1576 - (1281 + 293), Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, (266 - (28 + 238)) - 0, false, 114 - (4 + (245 - 135)));
+										local v433 = Instance.new("CFrameValue");
+										v433.Value = v427:GetPrimaryPartCFrame();
+										v433.Changed:Connect(function()
+											v427:PivotTo(v433.Value);
+										end);
+										local v435 = v431:Create(v433, v432, {Value=(workspace.Etc.Waypoint.Waypoint.CFrame * CFrame.new(0, 0, (2163 - (1381 + 178)) - (54 + 3 + 425 + 102)))});
+										v435:Play();
+										v435.Completed:Wait();
+										if (workspace.Etc.Waypoint.Waypoint.Position == v300) then
+											local v446 = game.Players.LocalPlayer;
+											local v447 = v446.Character;
+											local v448 = v447.HumanoidRootPart;
+											local v449 = v447.Humanoid.SeatPart;
+											local v450 = v449.Parent;
+											local v451 = v450.PrimaryPart;
+											workspace.Gravity = 0 + 0;
+											local v453 = ((v451.Position - workspace.Etc.Waypoint.Waypoint.Position) - Vector3.new(1427 - ((141 - 100) + 719 + 667), (598 - (381 + 89)) - (17 + 77 + 9), 0 + 0 + (0 - 0))).magnitude;
+											local v454 = game:GetService("TweenService");
+											local v455 = TweenInfo.new(3 - (1157 - (1074 + 82)), Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, (0 - 0) - (1784 - (214 + 1570)), false, (1621 - (990 + 465)) - (122 + 19 + 25));
+											local v456 = Instance.new("CFrameValue");
+											v456.Value = v450:GetPrimaryPartCFrame();
+											v456.Changed:Connect(function()
+												v450:PivotTo(v456.Value);
+											end);
+											local v458 = v454:Create(v456, v455, {Value=(workspace.Etc.Waypoint.Waypoint.CFrame - Vector3.new(0 + 0, (42 + 1) - 18, (0 - 0) - 0))});
+											v458:Play();
+											v458.Completed:Wait();
+										end
+										workspace.Gravity = 1926 - (1668 + 58);
+										for v443, v444 in pairs(v427:GetDescendants()) do
+											pcall(function()
+												v444.Velocity = Vector3.new(0 + (626 - (512 + 114)), 0 - 0, 0 - 0);
+											end);
+										end
+										wait((3 - 2) + 1 + 0);
+									end
+								until v300 ~= workspace.Etc.Waypoint.Waypoint.Position 
+								workspace.Gravity = 37 + 159;
+								wait((1.5 + 0) - (0 - 0));
+								break;
+							end
+							if ((2006 - (109 + 1885)) == v299) then
+								v311 = v308:Create(v310, v309, {Value=(workspace.Etc.Waypoint.Waypoint.CFrame + Vector3.new(1469 - (1269 + 200), (19 - 9) + (835 - (98 + 717)), (826 - (802 + 24)) + (0 - 0)))});
+								v311:Play();
+								v311.Completed:Wait();
+								v300 = workspace.Etc.Waypoint.Waypoint.Position;
+								v299 = 15 - 2;
+							end
+							if (5 == v299) then
+								v303 = v302.HumanoidRootPart;
+								v304 = v302.Humanoid.SeatPart;
+								v305 = v304.Parent;
+								v306 = v305.PrimaryPart;
+								v299 = 1 + 5;
+							end
+							if (v299 == (9 + 2)) then
+								v309 = TweenInfo.new(v307 / (2050 - (18 + 88 + 387 + 1407)), Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0 - 0);
+								v310 = Instance.new("CFrameValue");
+								v310.Value = v305:GetPrimaryPartCFrame();
+								v310.Changed:Connect(function()
+									v305:PivotTo(v310.Value);
+								end);
+								v299 = 39 - 27;
+							end
+							if (v299 == (3 + 3)) then
+								workspace.Gravity = 0 + 0;
+								v307 = ((v306.Position - workspace.Etc.Waypoint.Waypoint.Position) + Vector3.new(0 + 0, 105 + 22 + 272 + 101, (247 + 282) - (406 + (1556 - (797 + 636))))).magnitude;
+								print(v307 / ((9317 - 7398) - ((3368 - (1427 + 192)) + 20)));
+								v308 = game:GetService("TweenService");
+								v299 = 7;
+							end
+						end
+					end
+					break;
+				end
+				if (v194 == ((23 + 42) - ((69 - 39) + 35))) then
+					local v274 = 0 + 0;
+					while true do
+						if (v274 == (0 + 0)) then
+							print("Stop The Auto Farm");
+							_G.Farm = false;
+							v274 = 327 - (192 + 134);
+						end
+						if (v274 == 1) then
+							v194 = 1 + (1276 - (316 + 960));
+							break;
+						end
+					end
+				end
+			end
+		end
+	end});
+	v29:AddToggle({Name="Auto Farm Truck",Default=false,Callback=function(v65)
+		farmtime = v65;
+		if v65 then
+			local v195 = 0 + 0;
+			local v196;
+			local v197;
+			while true do
+				if (v195 == (0 + 0)) then
+					local v275 = 0 + 0;
+					while true do
+						if (v275 == (0 - 0)) then
+							v196 = {[(1809 - (83 + 468)) - ((2849 - (1202 + 604)) + (998 - 784))]="Truck"};
+							game:GetService("ReplicatedStorage").NetworkContainer.RemoteEvents.Job:FireServer(unpack(v196));
+							v275 = 1 - 0;
+						end
+						if (v275 == (2 - 1)) then
+							game.Players.LocalPlayer.CameraMinZoomDistance = (494 - (45 + 280)) - (120 + 4);
+							v195 = (1060 + 153) - (323 + 889);
+							break;
+						end
+					end
+				end
+				if (((5 + 8) - 8) == v195) then
+					v3(v5);
+					wait((324.5 + 260) - (361 + 39 + 180));
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Vehicles[game.Players.LocalPlayer.Name .. "sCar"].DriveSeat.CFrame;
+					v195 = (603 - 277) - ((1964 - (340 + 1571)) + 106 + 161);
+				end
+				if (v195 == 3) then
+					local v278 = 1772 - (1733 + 39);
+					while true do
+						if (v278 == (2 - 1)) then
+							v3(v4);
+							v195 = 1038 - (125 + 909);
+							break;
+						end
+						if (v278 == 0) then
+							wait(3.5);
+							game.Workspace.Gravity = 2 + (1951 - (1096 + 852));
+							v278 = 1 + 0;
+						end
+					end
+				end
+				if (v195 == ((591 - 177) - (15 + 0 + (910 - (409 + 103))))) then
+					local v279 = 236 - (46 + 190);
+					while true do
+						if (v279 == 0) then
+							wait(984 - ((113 - (51 + 44)) + 964));
+							game.Workspace.Gravity = (1 + 2) - 2;
+							v279 = 1;
+						end
+						if ((1318 - (1114 + 203)) == v279) then
+							v197 = game.Players.LocalPlayer.Character.HumanoidRootPart;
+							v195 = (728 - (228 + 498)) + 0;
+							break;
+						end
+					end
+				end
+				if ((2 + 4) == v195) then
+					local v280 = 0;
+					while true do
+						if (v280 == 0) then
+							wait(1 + 0 + 0);
+							game.Workspace.Gravity = (1763 - (174 + 489)) - (20 + (2162 - 1332));
+							v280 = 1;
+						end
+						if (v280 == (1906 - (830 + 1075))) then
+							wait(525 - (303 + 221));
+							v195 = 1276 - (231 + 1038);
+							break;
+						end
+					end
+				end
+				if ((6 + 1) == v195) then
+					game.Players.LocalPlayer.CameraMinZoomDistance = (105.5 + 21) - ((1278 - (171 + 991)) + (41 - 31));
+					v3(v4);
+					wait(1.5 + (0 - 0));
+					v195 = (1861 - 1115) - (434 + 108 + (687 - 491));
+				end
+				if (((48 - 31) - (13 - 4)) == v195) then
+					_G.Farm = true;
+					while _G.Farm == true do
+						local v312 = 0 - 0;
+						local v313;
+						while true do
+							if (v312 == (1251 - (111 + 1137))) then
+								v26();
+								wait((165.5 - (91 + 67)) - 4);
+								v312 = 11 - 7;
+							end
+							if ((0 + 0) == v312) then
+								v313 = game.Workspace.Vehicles[game.Players.LocalPlayer.Name .. "sCar"];
+								function teleportCar(v420)
+									v313:SetPrimaryPartCFrame(v420);
+								end
+								v312 = 1;
+							end
+							if (v312 == (524 - (423 + 100))) then
+								v25();
+								wait(v24);
+								v312 = 1 + 1;
+							end
+							if (v312 == 2) then
+								game.Workspace.Gravity = (2 - 1) + 0 + 0;
+								teleportCar(game:GetService("Workspace").Etc.Waypoint.Waypoint.CFrame + Vector3.new(0, -(9 + 8), (771 - (326 + 445)) + 0));
+								v312 = 13 - 10;
+							end
+							if (v312 == 4) then
+								game.Workspace.Gravity = 743 - (1008 - 555);
+								wait((3620.5 - 2069) - (1126 + 425));
+								break;
+							end
+						end
+					end
+					break;
+				end
+				if (v195 == (407 - ((829 - (530 + 181)) + (1168 - (614 + 267))))) then
+					v197.CFrame = game:GetService("Workspace").Etc.Waypoint.Waypoint.CFrame;
+					wait((39.5 - (19 + 13)) - (7 - 2));
+					game.Workspace.Gravity = (3287 - 1876) - ((337 - 219) + 261 + 742);
+					v195 = (13 - 5) - 5;
+				end
+				if (v195 == ((789 - 408) - (142 + (2047 - (1293 + 519))))) then
+					local v285 = 0;
+					while true do
+						if (v285 == 1) then
+							wait((1.5 - 0) + 0);
+							v195 = (2563 - 1581) - ((1057 - 504) + (1828 - 1404));
+							break;
+						end
+						if (v285 == (0 - 0)) then
+							wait(9.5 - (4 + 3));
+							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Etc.Job.Truck.Spawner.Part.CFrame;
+							v285 = 1;
+						end
+					end
+				end
+			end
+		else
+			local v198 = 0 + 0;
+			local v199;
+			while true do
+				if (v198 == (0 - 0)) then
+					v199 = 0 + 0;
+					while true do
+						if (v199 == ((0 + 0) - (0 + 0))) then
+							_G.Farm = false;
+							while _G.Farm == true do
+								local v411 = 0;
+								local v412;
+								while true do
+									if ((1098 - (709 + 387)) == v411) then
+										v26();
+										game.Workspace.Gravity = 1 + 0;
+										v411 = 1861 - (673 + 1185);
+									end
+									if (v411 == (0 - 0)) then
+										v412 = game.Workspace.Vehicles[game.Players.LocalPlayer.Name .. "sCar"];
+										function teleportCar(v445)
+											v412:SetPrimaryPartCFrame(v445);
+										end
+										v411 = 3 - 2;
+									end
+									if ((6 - 2) == v411) then
+										game.Workspace.Gravity = 119 + 47 + 93 + 31;
+										wait((0.5 - 0) - (0 + 0));
+										break;
+									end
+									if (1 == v411) then
+										v25();
+										wait(45 + (9 - 4));
+										v411 = 2;
+									end
+									if (v411 == (5 - 2)) then
+										teleportCar(game:GetService("Workspace").Etc.Waypoint.Waypoint.CFrame + Vector3.new((1880 - (446 + 1434)) + (1283 - (1040 + 243)), -((23 - 15) + 9), 1847 - (559 + 1288)));
+										wait(3.5);
+										v411 = 1935 - (609 + 1322);
+									end
+								end
+							end
+							break;
+						end
+					end
+					break;
+				end
+			end
+		end
+	end});
+	local v28 = v29:AddSection({Name="Info The Script"});
+	v29:AddLabel("User Protect: ☑️");
+	v29:AddLabel("Anti AFK: ☑️");
+	v29:AddLabel("Update 2.0.0 Is Working At Solara");
+	local v33 = v23:MakeTab({Name="Box Opener",Icon="rbxassetid://4483345998",PremiumOnly=false});
+	local v28 = v33:AddSection({Name="Buy Box"});
+	v33:AddLabel("Need 100Jt To Open Box");
+	v33:AddButton({Name="Open Box Limit",Callback=function(v66)
+		local v67 = 454 - (13 + 441);
+		local v68;
+		while true do
+			if (v67 == 0) then
+				v68 = {[(7 - 5) - (2 - 1)]="Buy",[4 - 2]="Limited Box"};
+				game:GetService("ReplicatedStorage").NetworkContainer.RemoteEvents.Box:FireServer(unpack(v68));
+				break;
+			end
+		end
+	end});
+	v33:AddButton({Name="Open Box Gamepass",Callback=function(v69)
+		local v70 = 0;
+		local v71;
+		while true do
+			if (v70 == (0 - 0)) then
+				v71 = {[1 + 0 + (0 - 0)]="Buy",[2]="Gamepass Box"};
+				game:GetService("ReplicatedStorage").NetworkContainer.RemoteEvents.Box:FireServer(unpack(v71));
+				break;
+			end
+		end
+	end});
+	local v34 = v23:MakeTab({Name="Vehicle Speed",Icon="rbxassetid://4483345998",PremiumOnly=false});
+	local v28 = v34:AddSection({Name="Activated Velocity"});
+	local v35 = false;
+	v34:AddToggle({Name="Enable Velocity☑️",Default=false,Callback=function(v72)
+		v35 = v72;
+	end});
+	local v28 = v34:AddSection({Name="Vehicle Speed Velocity"});
+	local v36 = game:GetService("Players");
+	local v37 = game:GetService("RunService");
+	local v38 = game:GetService("UserInputService");
+	local v39 = v36.LocalPlayer;
+	local v40 = (0.025 + 0) - (0 + 0);
+	local v41 = Enum.KeyCode.W;
+	v34:AddSlider({Name="Car Speed Velocity",Min=((2234 - 1481) - (239 + 282 + 232)),Max=50,Default=(27 - 12),Color=Color3.fromRGB(255, 0 + 0 + 0 + 0, 1584 - (797 + 383 + 149)),Increment=(1 + 0),ValueName="Velocity",Callback=function(v73)
+		v40 = v73 / (284 + 54 + 662);
+	end});
+	v34:AddBind({Name="Vehicle Speed Velocity Enable",Default=Enum.KeyCode.W,Hold=false,Callback=function()
+		if not v35 then
+			return;
+		end
+		while v38:IsKeyDown(v41) do
+			task.wait((0 + 0) - (433 - (153 + 280)));
+			local v156 = v39.Character;
+			if (v156 and (typeof(v156) == "Instance")) then
+				local v221 = 0 - 0;
+				local v222;
+				while true do
+					if (v221 == (0 + 0)) then
+						v222 = v156:FindFirstChildWhichIsA("Humanoid");
+						if (v222 and (typeof(v222) == "Instance")) then
+							local v371 = 0 + 0;
+							local v372;
+							local v373;
+							while true do
+								if ((0 + 0) == v371) then
+									v372 = (1091 + 111) - (271 + 102 + (1261 - 432));
+									v373 = nil;
+									v371 = 1 + 0;
+								end
+								if (v371 == (668 - (89 + 578))) then
+									while true do
+										if (v372 == ((523 + 208) - ((989 - 513) + (1304 - (572 + 477))))) then
+											v373 = v222.SeatPart;
+											if (v373 and (typeof(v373) == "Instance") and v373:IsA("VehicleSeat")) then
+												v373.AssemblyLinearVelocity *= Vector3.new(1 + v40, (153 + 978) - (369 + 761), 1 + 0 + 0 + v40)
+											end
+											break;
+										end
+									end
+									break;
+								end
+							end
+						end
+						break;
+					end
+				end
+			end
+			if not v35 then
+				break;
+			end
+		end
+	end,function(v74)
+		v41 = v74.KeyCode;
+	end});
+	local v28 = v34:AddSection({Name="Vehicle Brake Force Velocity"});
+	local v42 = Enum.KeyCode.S;
+	local v43 = 0.15 - 0;
+	v34:AddSlider({Name="Car Brake Force Velocity",Min=((29 + 209) - ((150 - (84 + 2)) + 174)),Max=((70 - 27) + 186 + 71),Default=((893 - (497 + 345)) - (1 + 15)),Color=Color3.fromRGB(255, 0, (100 + 491) - (144 + (1525 - (605 + 728)))),Increment=((155 + 62) - ((92 - 50) + 8 + 166)),ValueName="Velocity",Callback=function(v76)
+		v43 = v76 / (752 + (916 - 668));
+	end});
+	v34:AddBind({Name="Vehicle Brake Force Enable",Default=Enum.KeyCode.S,Hold=false,Callback=function()
+		local v77 = 0;
+		local v78;
+		while true do
+			if (v77 == 0) then
+				v78 = 0 + 0 + 0;
+				while true do
+					if (v78 == (0 + (0 - 0))) then
+						if not v35 then
+							return;
+						end
+						while v38:IsKeyDown(v42) do
+							task.wait((1136 + 368) - ((852 - (457 + 32)) + 1141));
+							local v346 = v39.Character;
+							if (v346 and (typeof(v346) == "Instance")) then
+								local v413 = 0 + 0;
+								local v414;
+								while true do
+									if (0 == v413) then
+										v414 = v346:FindFirstChildWhichIsA("Humanoid");
+										if (v414 and (typeof(v414) == "Instance")) then
+											local v461 = 0;
+											local v462;
+											while true do
+												if (v461 == ((2982 - (832 + 570)) - (1183 + 397))) then
+													v462 = v414.SeatPart;
+													if (v462 and (typeof(v462) == "Instance") and v462:IsA("VehicleSeat")) then
+														v462.AssemblyLinearVelocity *= Vector3.new((2 - (1 + 0)) - v43, 1 + 0 + 0, ((3 - 2) + 0) - v43)
+													end
+													break;
+												end
+											end
+										end
+										break;
+									end
+								end
+							end
+							if not v35 then
+								break;
+							end
+						end
+						break;
+					end
+				end
+				break;
+			end
+		end
+	end,function(v79)
+		v42 = v79.KeyCode;
+	end});
+	local v44 = v23:MakeTab({Name="Map Teleport",Icon="rbxassetid://4483345998",PremiumOnly=false});
+	local v28 = v44:AddSection({Name="Teleport To Another Map"});
+	v44:AddButton({Name="Jakarta",Callback=function()
+		v2:Teleport((15115989880 - (588 + 208)) - (2851215171 - 1741192924));
+	end});
+	v44:AddButton({Name="Jawa Barat",Callback=function()
+		v2:Teleport(9233343468);
+	end});
+	v44:AddButton({Name="Jawa Tengah",Callback=function()
+		v2:Teleport(9508940498);
+	end});
+	local v28 = v44:AddSection({Name="Rejoin"});
+	v44:AddButton({Name="Rejoin",Callback=function()
+		v2:TeleportToPlaceInstance(game.PlaceId, game.JobId, v36.LocalPlayer);
+	end});
+	local v45 = v23:MakeTab({Name="Dealership",Icon="rbxassetid://4483345998",PremiumOnly=false});
+	local v28 = v45:AddSection({Name="Tp To Dealership"});
+	local function v46()
+		local v81 = 1933 - (565 + 1368);
+		local v82;
+		while true do
+			local v157 = 1800 - (884 + 916);
+			while true do
+				if (v157 == (0 - 0)) then
+					if (v81 == (0 + 0)) then
+						local v314 = 653 - (232 + 421);
+						while true do
+							if (v314 == (1890 - (1569 + 320))) then
+								v81 = (1 + 2) - (1 + 1);
+								break;
+							end
+							if (v314 == 0) then
+								v82 = {};
+								for v421, v422 in pairs(workspace.Etc.Dealership:GetChildren()) do
+									if (v422.ClassName == "Model") then
+										table.insert(v82, v422.Name);
+									end
+								end
+								v314 = 3 - 2;
+							end
+						end
+					end
+					if (v81 == (1662 - (1477 + 184))) then
+						return v82;
+					end
+					break;
+				end
+			end
+		end
+	end
+	v45:AddDropdown({Name="Dealerships:",Default="",Options=v46(),Callback=function(v83)
+		dealer = v83;
+	end});
+	v45:AddButton({Name="Teleport",Callback=function()
+		for v158, v159 in pairs(workspace.Etc.Dealership:GetChildren()) do
+			if (v159.Name == dealer) then
+				local v223 = 0;
+				local v224;
+				while true do
+					if ((605 - (316 + 289)) == v223) then
+						v224 = 0;
+						while true do
+							if (v224 == ((0 - 0) - 0)) then
+								game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v159.WorldPivot + Vector3.new(0 + 0 + (1453 - (666 + 787)), 430 - (360 + 65), (800 + 56) - ((818 - (79 + 175)) + (460 - 168)));
+								game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true;
+								v224 = (1 + 0) - 0;
+							end
+							if (v224 == ((5 - 3) - (1 - 0))) then
+								wait(1);
+								game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false;
+								break;
+							end
+						end
+						break;
+					end
+				end
+			end
+		end
+	end});
+	local v47 = v23:MakeTab({Name="Credits",Icon="rbxassetid://4483345998",PremiumOnly=false});
+	local v28 = v47:AddSection({Name="Just Name Discord Owner"});
+	v47:AddLabel("Owner: ZansXHb#7690");
+	v47:AddLabel("Script: Free");
+	v47:AddLabel("If Have A Bug Report It");
+	local v48 = v23:MakeTab({Name="Visual",Icon="rbxassetid://4483345998",PremiumOnly=false});
+	local v28 = v48:AddSection({Name="Only Visual"});
+	v48:AddToggle({Name="Developer Rank",Default=false,Callback=function(v84)
+		if v84 then
+			game:GetService("Workspace").Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.RankName.Text = "Developer";
+			game:GetService("Workspace").Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.RankName.TextColor3 = Color3.fromRGB((1458 - (503 + 396)) - (244 + (241 - (92 + 89))), (191 - 92) + 15 + 14, 0 + 0);
+			game:GetService("Workspace").Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.RankName.Visible = true;
+		else
+			game:GetService("Workspace").Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.RankName.Visible = false;
+		end
+	end});
+	v48:AddToggle({Name="Moderator Rank",Default=false,Callback=function(v85)
+		if v85 then
+			local v204 = 0;
+			local v205;
+			while true do
+				if (v204 == 0) then
+					v205 = (1863 - 1387) - (6 + 35 + (991 - 556));
+					while true do
+						if (v205 == ((875 + 127) - (449 + 489 + 63))) then
+							game:GetService("Workspace").Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.RankName.Visible = true;
+							break;
+						end
+						if (v205 == (0 - 0)) then
+							game:GetService("Workspace").Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.RankName.Text = "Moderator";
+							game:GetService("Workspace").Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.RankName.TextColor3 = Color3.fromRGB(25 + 172 + (88 - 30), (2497 - (485 + 759)) - ((2165 - 1229) + (1378 - (442 + 747))), 0);
+							v205 = (1136 - (832 + 303)) + (946 - (88 + 858));
+						end
+					end
+					break;
+				end
+			end
+		else
+			game:GetService("Workspace").Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.RankName.Visible = false;
+		end
+	end});
+	local v28 = v48:AddSection({Name="Money/Cash"});
+	v48:AddTextbox({Name="Input Amount Money",Default="",TextDisappear=true,Callback=function(v86)
+		amount = v86;
+	end});
+	v48:AddButton({Name="Get Money",Callback=function(v87)
+		game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.Frame.TextLabel.Text = "RP. " .. amount .. " ";
+		wait();
+		game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.Text = "+RP. " .. amount .. " ";
+		wait(0.1 + 0);
+		game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency = 1613 - (1296 + 269 + 48);
+		wait(2.5 + 0 + 0);
+		game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency = (1927.1 - (766 + 23)) - ((3860 - 3078) + 356);
+		wait((365.1 - 98) - ((463 - 287) + 91));
+		game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency = 0.2;
+		wait((0.1 - 0) - (1073 - (1036 + 37)));
+		game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency = 0.3 + 0;
+		wait(0.1 - 0);
+		game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency = (0.4 + 0) - (1480 - (641 + 839));
+		wait(1092.1 - (975 + 117));
+		game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency = 913.5 - (910 + 3);
+		wait(1875.1 - ((400 - 243) + 1718));
+		game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency = (1684.6 - (1466 + 218)) + 0;
+		wait(0.1 - (0 + 0));
+		game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency = 0.7 - 0;
+		wait((2166.1 - (556 + 592)) - (697 + 115 + 206));
+		game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency = 0.8 - (808 - (329 + 479));
+		wait(854.1 - (174 + 680));
+		game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency = (0.9 - 0) - (0 - 0);
+		wait((0.1 + 0) - 0);
+		game.Players.LocalPlayer.PlayerGui.Main.Container.Hub.CashFrame.TextLabel.TextTransparency = (740 - (396 + 343)) + 0 + 0;
+	end});
+	local v49 = v23:MakeTab({Name="Misc",Icon="rbxassetid://4483345998",PremiumOnly=false});
+	local v28 = v49:AddSection({Name="Misc"});
+	v49:AddButton({Name="Fps Booster",Callback=function(v91)
+		local v92 = (1477 - (29 + 1448)) - (1389 - (135 + 1254));
+		while true do
+			if (v92 == ((0 - 0) - 0)) then
+				_G.Settings = {Players={["Ignore Me"]=true,["Ignore Others"]=true},Meshes={Destroy=false,LowDetail=true},Images={Invisible=true,LowDetail=false,Destroy=false},["No Particles"]=true,["No Camera Effects"]=true,["No Explosions"]=true,["No Clothes"]=true,["Low Water Graphics"]=true,["No Shadows"]=true,["Low Rendering"]=true,["Low Quality Parts"]=true};
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/DrownHub/Fps/main/FpsBooster/lua"))();
+				break;
+			end
+		end
+	end});
+	game:GetService("Players").LocalPlayer.PlayerGui.PhoneUI.HolderHP.Homescreen.ProfileScreen.MainFrame.MainName.Text = "Protected By Cursed X Hub";
+	game:GetService("Players").LocalPlayer.PlayerGui.PhoneUI.HolderHP.Homescreen.ProfileScreen.MainFrame.DisplayName.Text = "Protected By Cursed X Hub";
+	game:GetService("Workspace").Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.PlayerName.Text = "Protected By Cursed X Hub";
+	game:GetService("Workspace").Lives[game.Players.LocalPlayer.Name].Head.PlayerBillboard.Frame.JobName.Text = "https://discord.com/invite/W3Dbe8uj";
+	repeat
+		wait();
+	until game:IsLoaded() 
+	game:GetService("Players").LocalPlayer.Idled:connect(function()
+		game:GetService("VirtualUser"):ClickButton2(Vector2.new());
+	end);
+end
+v2 = game:GetService("TeleportService");
+local v9 = game.CoreGui;
+if v9:FindFirstChild("Cursed Gui") then
+	local v93 = (5728 - 4501) - (215 + 107 + 905);
+	local v94;
+	local v95;
+	local v96;
+	local v97;
+	local v98;
+	local v99;
+	local v100;
+	local v101;
+	local v102;
+	local v103;
+	while true do
+		if (v93 == (611 - ((2129 - (389 + 1138)) + 9))) then
+			local v225 = 574 - (102 + 472);
+			while true do
+				if (v225 == 1) then
+					v94 = Instance.new("ScreenGui");
+					v95 = Instance.new("Frame");
+					v225 = 2 + 0;
+				end
+				if (v225 == (2 + 0)) then
+					v96 = Instance.new("UICorner");
+					v97 = Instance.new("TextButton");
+					v225 = 3 + 0;
+				end
+				if (v225 == (1548 - (320 + 1225))) then
+					v93 = (1553 - 680) - (826 + 29 + 17);
+					break;
+				end
+				if ((1464 - (157 + 1307)) == v225) then
+					v9["Cursed Gui"]:Destroy();
+					wait((3051.5 - (821 + 1038)) - (449 + (1846 - 1106)));
+					v225 = 1;
+				end
+			end
+		end
+		if (v93 == (1 + 2)) then
+			local v226 = 0 - 0;
+			while true do
+				if (v226 == (1 + 0)) then
+					v96.Parent = v95;
+					v97.Parent = v95;
+					v226 = 4 - 2;
+				end
+				if (v226 == (1026 - (834 + 192))) then
+					v95.Position = UDim2.new((61.02352941219999 + 886) - (63 + 182 + 702), 0 - (0 + 0), (0.194331989 - 0) + 0, 1898 - ((564 - (300 + 4)) + 438 + 1200));
+					v95.Size = UDim2.new((1151 - 711) - ((744 - (112 + 250)) + 24 + 34), 57, 0 - 0, (97 + 72) - (60 + 56));
+					v226 = 1;
+				end
+				if (v226 == (3 + 0)) then
+					v93 = (4 + 4) - (3 + 1);
+					break;
+				end
+				if (v226 == (1416 - (1001 + 413))) then
+					v97.BackgroundColor3 = Color3.fromRGB(212 + (95 - 52), (1408 - (244 + 638)) - 271, (1450 - (627 + 66)) - (1495 - 993));
+					v97.BorderColor3 = Color3.fromRGB((1807 - (512 + 90)) - ((2808 - (1665 + 241)) + (1020 - (373 + 344))), 0 + 0, 0);
+					v226 = 3;
+				end
+			end
+		end
+		if (v93 == ((2 + 2) - (5 - 3))) then
+			local v227 = 0 - 0;
+			while true do
+				if (v227 == 0) then
+					v94.Parent = game.CoreGui;
+					v94.ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
+					v227 = 1100 - (35 + 1064);
+				end
+				if (v227 == (2 + 0)) then
+					v95.BorderColor3 = Color3.fromRGB((457 - 243) - (22 + 192), (3 + 680) - ((1719 - (298 + 938)) + 200), (2722 - (233 + 1026)) - (1404 + (1725 - (636 + 1030))));
+					v95.BorderSizePixel = (0 + 0) - (0 + 0);
+					v227 = 3;
+				end
+				if (v227 == 1) then
+					v95.Parent = v94;
+					v95.BackgroundColor3 = Color3.fromRGB(22 + 70 + 163, 255, 1945 - (76 + 1045 + (790 - (55 + 166))));
+					v227 = 2;
+				end
+				if (v227 == (1 + 2)) then
+					v93 = (1 + 2) - 0;
+					break;
+				end
+			end
+		end
+		if (4 == v93) then
+			local v228 = 0 - 0;
+			while true do
+				if ((298 - (36 + 261)) == v228) then
+					v97.AutoButtonColor = false;
+					v97.Font = Enum.Font.SourceSans;
+					v228 = 2;
+				end
+				if (3 == v228) then
+					v93 = 2 + (4 - 1);
+					break;
+				end
+				if ((1368 - (34 + 1334)) == v228) then
+					v97.BorderSizePixel = (295 + 470) - (468 + 297);
+					v97.Size = UDim2.new(0, 619 - (334 + 178 + 50), (1283 - (1035 + 248)) - (21 - (20 + 1)), (64 + 58) - 69);
+					v228 = 1;
+				end
+				if (v228 == 2) then
+					v97.Text = "";
+					v97.TextColor3 = Color3.fromRGB(319 - (134 + 185), 0 - (1133 - (549 + 584)), 685 - (314 + 371));
+					v228 = 10 - 7;
+				end
+			end
+		end
+		if (v93 == (974 - (478 + 490))) then
+			v99.BorderSizePixel = (126 + 110) - ((1313 - (786 + 386)) + 95);
+			v99.Position = UDim2.new(-((0.00593620446 - 0) + 0), (1379 - (1055 + 324)) - (1340 - (1093 + 247)), -(0.023722522 + 0), 0 + 0);
+			v99.Size = UDim2.new((0 - 0) - 0, 57, 0 + 0, 150 - 95);
+			v99.Image = "rbxassetid://17751623129";
+			v99.ScaleType = Enum.ScaleType.Crop;
+			v100.Parent = v99;
+			v93 = (16 - 11) + 2;
+		end
+		if ((5 + 3) == v93) then
+			v103 = nil;
+			function v103()
+				local v248 = 0 - 0;
+				local v249;
+				local v250;
+				while true do
+					if (v248 == 0) then
+						v249 = Instance.new("LocalScript", v102);
+						v249.Name = "Settings";
+						v248 = 2 - 1;
+					end
+					if (v248 == (1 + 0)) then
+						v250 = v249.parent;
+						while true do
+							local v377 = 0 - (0 - 0);
+							while true do
+								if (v377 == (0 + (0 - 0))) then
+									v250.Rotation += (165.5 - (70 + 22 + 71))
+									wait();
+									break;
+								end
+							end
+						end
+						break;
+					end
+				end
+			end
+			coroutine.wrap(v103)();
+			wait(9.5 - 5);
+			v8();
+			break;
+		end
+		if (v93 == 1) then
+			v98 = Instance.new("UICorner");
+			v99 = Instance.new("ImageLabel");
+			v100 = Instance.new("UICorner");
+			v101 = Instance.new("UIStroke");
+			v102 = Instance.new("UIGradient");
+			v94.Name = "Cursed Gui";
+			v93 = 2;
+		end
+		if (v93 == (3 + (690 - (364 + 324)))) then
+			local v237 = 0 - 0;
+			while true do
+				if (v237 == (2 - 1)) then
+					v98.Parent = v97;
+					v99.Parent = v97;
+					v237 = 2;
+				end
+				if (v237 == (1 + 1)) then
+					v99.BackgroundColor3 = Color3.fromRGB(255, 1066 - 811, 255);
+					v99.BorderColor3 = Color3.fromRGB(0 - 0, (0 - 0) - (1268 - (1249 + 19)), 0 + 0);
+					v237 = 11 - 8;
+				end
+				if (3 == v237) then
+					v93 = (1090 - (686 + 400)) + 2 + 0;
+					break;
+				end
+				if (v237 == (229 - (73 + 156))) then
+					v97.TextSize = 1 + 13;
+					v97.MouseButton1Click:Connect(function()
+						if (game.CoreGui.Orion:GetChildren()[(813 - (721 + 90)) - 0].Visible == false) then
+							game.CoreGui.Orion:GetChildren()[767 - (7 + 567 + 191)].Visible = true;
+						else
+							game.CoreGui.Orion:GetChildren()[(6 - 4) + (470 - (224 + 246))].Visible = false;
+						end
+					end);
+					v237 = 1;
+				end
+			end
+		end
+		if (v93 == ((1386 - 530) - (254 + (1095 - 500)))) then
+			v101.Parent = game.CoreGui["Cursed Gui"].Frame;
+			v101.Color = Color3.fromRGB(255, (70 + 311) - (2 + 53 + 71), 335 - (59 + 21));
+			v101.Thickness = 7 - 3;
+			v101.Transparency = (5956 - 4166) - ((1086 - (203 + 310)) + (3210 - (1238 + 755)));
+			v102.Color = ColorSequence.new({ColorSequenceKeypoint.new((1534 - (709 + 825)) + (0 - 0), Color3.fromRGB((597 - 187) - (1019 - (196 + 668)), 939 - ((2818 - 2104) + (466 - 241)), (833 - (171 + 662)) - (93 - (4 + 89)))),ColorSequenceKeypoint.new(0.21, Color3.fromRGB(255, 6 + 8 + (496 - 383), 0 + 0)),ColorSequenceKeypoint.new(0.4, Color3.fromRGB(255, (1821 - (28 + 1425)) - (2106 - (941 + 1052)), (773 + 33) - (118 + (2202 - (822 + 692))))),ColorSequenceKeypoint.new(0.56 + 0, Color3.fromRGB(0 + (297 - (45 + 252)), (2119 + 22) - (320 + 607 + (2333 - 1374)), 433 - (114 + 319))),ColorSequenceKeypoint.new(0.72, Color3.fromRGB((937 - 205) - (16 + 457 + 259), (0 - 0) - 0, (737 - 385) - ((1974 - (556 + 1407)) + 86))),ColorSequenceKeypoint.new(285.85 - ((1381 - (741 + 465)) + 110), Color3.fromRGB((654 - (170 + 295)) - (61 + 53), (0 + 0) - (0 - 0), 1926 - (417 + 86 + 1293))),ColorSequenceKeypoint.new((2 + 0) - 1, Color3.fromRGB(148, 0 + 0 + 0, 1441 - (957 + 273)))});
+			v102.Parent = game.CoreGui["Cursed Gui"].Frame.UIStroke;
+			v93 = 1069 - (217 + 593 + 101 + 150);
+		end
+	end
+else
+	local v104 = Instance.new("ScreenGui");
+	local v105 = Instance.new("Frame");
+	local v106 = Instance.new("UICorner");
+	local v107 = Instance.new("TextButton");
+	local v108 = Instance.new("UICorner");
+	local v109 = Instance.new("ImageLabel");
+	local v110 = Instance.new("UICorner");
+	local v111 = Instance.new("UIStroke");
+	local v112 = Instance.new("UIGradient");
+	v104.Name = "Cursed Gui";
+	v104.Parent = game.CoreGui;
+	v104.ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
+	v105.Parent = v104;
+	v105.BackgroundColor3 = Color3.fromRGB(177 + 78, (300 - 221) + 176, 671 - 416);
+	v105.BorderColor3 = Color3.fromRGB((0 - 0) + (0 - 0), 1780 - (389 + 1391), 0 + 0);
+	v105.BorderSizePixel = 0;
+	v105.Position = UDim2.new(0.0235294122 + 0, 533 - ((97 - 54) + (1441 - (783 + 168))), (2459.194331989 - 1726) - (700 + 11 + (333 - (309 + 2))), 0 - 0);
+	v105.Size = UDim2.new(0 - (1212 - (1090 + 122)), (297 + 619) - ((806 - 566) + 619), 0, 9 + 4 + (1158 - (628 + 490)));
+	v106.Parent = v105;
+	v107.Parent = v105;
+	v107.BackgroundColor3 = Color3.fromRGB(405 - 150, 4 + 13 + (589 - 351), (9135 - 7136) - (1344 + 400));
+	v107.BorderColor3 = Color3.fromRGB(774 - (431 + 343), 405 - (255 + (302 - 152)), (0 - 0) + 0 + 0);
+	v107.BorderSizePixel = 0 + 0 + 0;
+	v107.Size = UDim2.new(0 - 0, (1878 - (556 + 1139)) - (141 - (6 + 9)), 0, (329 + 1463) - (207 + 197 + (1504 - (28 + 141))));
+	v107.AutoButtonColor = false;
+	v107.Font = Enum.Font.SourceSans;
+	v107.Text = "";
+	v107.TextColor3 = Color3.fromRGB((158 + 248) - (183 + 223), 0 - 0, 0 - 0);
+	v107.TextSize = 8 + 2 + 4;
+	v107.MouseButton1Click:Connect(function()
+		if (game.CoreGui.Orion:GetChildren()[(1318 - (486 + 831)) + 1].Visible == false) then
+			game.CoreGui.Orion:GetChildren()[5 - 3].Visible = true;
+		else
+			game.CoreGui.Orion:GetChildren()[(1193 - 854) - (2 + 8 + (1033 - 706))].Visible = false;
+		end
+	end);
+	v108.Parent = v107;
+	v109.Parent = v107;
+	v109.BackgroundColor3 = Color3.fromRGB(178 + (1340 - (668 + 595)), (534 + 59) - (24 + 94 + (599 - 379)), 255);
+	v109.BorderColor3 = Color3.fromRGB((290 - (23 + 267)) + 0, 449 - ((2052 - (1129 + 815)) + (728 - (371 + 16))), (1750 - (1326 + 424)) + (0 - 0));
+	v109.BorderSizePixel = 0 - 0;
+	v109.Position = UDim2.new(-(118.00593620446 - (88 + 30)), (771 - (720 + 51)) - (0 - 0), -((3269.023722522 - (421 + 1355)) - ((1172 - 461) + 782)), (0 + 0) - (1083 - (286 + 797)));
+	v109.Size = UDim2.new((1714 - 1245) - ((447 - 177) + (638 - (397 + 42))), 6 + 13 + 38, 1819 - (580 + (2039 - (24 + 776))), 163 - (166 - 58));
+	v109.Image = "rbxassetid://17751623129";
+	v109.ScaleType = Enum.ScaleType.Crop;
+	v110.Parent = v109;
+	v111.Parent = game.CoreGui["Cursed Gui"].Frame;
+	v111.Color = Color3.fromRGB((1029 - (222 + 563)) + (23 - 12), 10 + 177 + 68, 112 + (333 - (23 + 167)));
+	v111.Thickness = (1807 - (690 + 1108)) - 5;
+	v111.Transparency = 0 + 0 + 0;
+	v112.Color = ColorSequence.new({ColorSequenceKeypoint.new((2015 - (40 + 808)) - (107 + 538 + (1996 - 1474)), Color3.fromRGB((1955 + 90) - (535 + 475 + 428 + 352), 571 - (47 + 524), 0 + 0 + (0 - 0))),ColorSequenceKeypoint.new(0.21 - 0, Color3.fromRGB(747 - (1121 - 629), 1963 - ((2771 - (1165 + 561)) + 24 + 767), 0 - 0)),ColorSequenceKeypoint.new((479.4 - (341 + 138)) - (0 + 0), Color3.fromRGB(526 - 271, (1086 - (89 + 237)) - ((1129 - 778) + 154), (3313 - 1739) - ((2162 - (581 + 300)) + 293))),ColorSequenceKeypoint.new((1220.56 - (855 + 365)) - (0 - 0), Color3.fromRGB((510 + 1049) - ((2616 - (1030 + 205)) + 168 + 10), 224 + 16 + (301 - (156 + 130)), 0 + (0 - 0))),ColorSequenceKeypoint.new(0.72 - 0, Color3.fromRGB(0 - (0 + 0), 0 + 0, (202 - (10 + 59)) + 35 + 87)),ColorSequenceKeypoint.new(1163.85 - (671 + 492), Color3.fromRGB((434 + 111) - (381 + (1304 - (369 + 846))), 0 + 0, 99 + 17 + 14)),ColorSequenceKeypoint.new((1946 - (1036 + 909)) - 0, Color3.fromRGB((1037 + 267) - ((1802 - 728) + 82), (203 - (11 + 192)) - (0 + 0), 386 - (135 + 40)))});
+	v112.Parent = game.CoreGui["Cursed Gui"].Frame.UIStroke;
+	local function v155()
+		local v160 = 0 - 0;
+		local v161;
+		local v162;
+		while true do
+			if (v160 == (1784 - (214 + 1570))) then
+				local v251 = 0;
+				while true do
+					if (v251 == (1 + 0)) then
+						v160 = (3207 - 1751) - ((1484 - 494) + (641 - (50 + 126)));
+						break;
+					end
+					if (v251 == (0 - 0)) then
+						v161 = Instance.new("LocalScript", v112);
+						v161.Name = "Settings";
+						v251 = 1;
+					end
+				end
+			end
+			if (v160 == (1 + 0)) then
+				v162 = v161.parent;
+				while true do
+					v162.Rotation += (1.5 + 1 + 0)
+					wait();
+				end
+				break;
+			end
+		end
+	end
+	coroutine.wrap(v155)();
+	wait(1417.5 - (1233 + 180));
+	v8();
+end
